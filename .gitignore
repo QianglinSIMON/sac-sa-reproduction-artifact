@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Editors and operating systems
+.DS_Store
+.vscode/
+
+# Local plotting and caches
+.cache/
+.matplotlib*/
+
+# Experiment outputs
+logs_*/
+results_*/
+summary_*/
+summary_input_*/
+paper_figures_*/
+*.lock
+
+# Model artifacts
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.npz
+
+# Temporary files
+*.tmp
+*.log
