@@ -22,14 +22,13 @@ confidential.
 Raw episode files, summaries, figures, and checkpoints are intentionally
 excluded. Each experiment regenerates its outputs locally.
 
-## Rebuttal RL Baseline Comparison
+## RL Baseline Comparison
 
 The [SAC-SA-RL-Baselines](SAC-SA-RL-Baselines/README.md) supplement adds
 CQL-FT, MOPO-FT, SAC-Lag+Filter and TD3-PiNet, together with SAC-SA,
 TD3-Feasible, TD3-Projection and DFL-PTO controls. It includes frozen
 configurations, execution and summary scripts, and seed-level result records.
-The July 27 initial-submission experiment directories and configurations are
-unchanged.
+
 
 Synthetic T6/T12 and Public-grid T20 include their required public inputs.
 A/A T6/T12 code is included, but its confidential data and calibration
