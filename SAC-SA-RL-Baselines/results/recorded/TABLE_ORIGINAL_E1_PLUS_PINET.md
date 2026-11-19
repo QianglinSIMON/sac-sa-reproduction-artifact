@@ -1,6 +1,6 @@
-原版 E1 加 TD3-Πnet：跨版本扩展表（q=3）
+# Final-round baseline results (q=3)
 
-旧版七方法整组保留；仅新增方法来自 _next。该表不代表全部方法使用 _next 修正实现。
+Seven methods retain the original E1 implementation, while TD3-PiNet uses the subsequent implementation. The results do not represent an all-method comparison using the revised E1-next implementation.
 
 | Method | Synthetic T6 | Synthetic T12 | A/A T6 | A/A T12 | Grid T20 |
 |---|---:|---:|---:|---:|---:|
@@ -14,12 +14,12 @@
 | SAC-Lag+Filter | 68.05 ± 0.46 | 160.47 ± 0.27 | 158.11 ± 0.46 | 163.84 ± 0.43 | 884.11 ± 1.56 |
 | TD3-Πnet | 66.62 ± 0.36 | 144.23 ± 9.69 | 143.70 ± 10.38 | 136.65 ± 16.30 | 885.67 ± 12.04 |
 
-每个非空学习方法单元均为 seeds 2026–2030 的 mean ± sample SD；每 seed 2000 个确定性评估 episode。没有挑选最佳轮次/seed/版本。Best op. 不制造训练 SD。
+Each learning-method entry reports the mean and sample SD across training seeds 2026–2030. Each trained policy was evaluated over 2,000 episodes using its prescribed deterministic action rule. Results use the final round, without selecting the best round, seed or implementation version. Best op. is an operational reference and has no training-seed SD.
 
-五场景 × 八个学习方法 × 五个训练 seeds 已全部齐备，共 200 个最终结果。TD3-Πnet 替代 TD3-HardNet-Cvx 进入本表；其余七个学习方法整组采用原版 E1。
+The collection contains 200 completed runs across five scenarios, eight learning methods and five training seeds. TD3-PiNet occupies the projection-layer baseline slot; the other seven methods consistently use original E1 results.
 
-SAC-SA/CQL/MOPO 使用原版门控；MOPO 的不确定性使用原版 elite 子集。不得将这些行描述成新版 squareplus/完整 ensemble 修正后的实现。
+SAC-SA, CQL and MOPO retain the original gate parameterization. MOPO computes uncertainty using the original elite subset. These rows do not use the revised squareplus gate or full-ensemble uncertainty calculation.
 
-Πnet 是本项目 PyTorch 预算约束适配。四个场景来自 E1-next-simple，A/A T12 的五个完成结果来自 E1-rest-simple-T12-AA-td3-pinet，并已核对为原任务的完成快照。HardNet 原始任务保留在原结果包，未覆盖或改名。
+PiNet is the project's PyTorch adaptation to the shared-budget constraint. Four scenarios come from E1-next-simple, and the five A/A T12 results come from E1-rest-simple-T12-AA-td3-pinet. Those five records were verified as completed snapshots of the original tasks. The original HardNet runs remain in the source collection and were neither overwritten nor relabeled.
 
-A/A T12 的 Πnet 存在较大种子差异：2027、2030 的平均支出接近零，收益接近无补贴策略；全部五 seeds 如实纳入。预算可行不代表训练稳定或收益最优。
+PiNet shows substantial variation across seeds in A/A T12. Seeds 2027 and 2030 have near-zero mean spending and returns close to the no-subsidy policy. All five seeds are included, and budget feasibility alone does not establish training stability or optimal returns.

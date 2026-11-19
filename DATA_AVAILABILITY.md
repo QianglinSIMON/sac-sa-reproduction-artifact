@@ -1,6 +1,6 @@
 # Data Availability
 
-The initial-submission artifact contains two reproducible benchmark families.
+The core experiments provide two reproducible benchmark families.
 
 1. The fully synthetic benchmark generates all states, actions, responses, and
    evaluation trajectories from the included code.
@@ -14,7 +14,7 @@ absolute paths are intended to be present in this artifact. Running an
 experiment regenerates its episode-level outputs, summaries, figures, and
 model checkpoints locally.
 
-## Rebuttal supplement
+## RL baseline package
 
 `SAC-SA-RL-Baselines/` includes code for the five E1 comparison scenarios.
 The A/A T6/T12 `data_sim/` and `aa_data_based_simulator_outputs/` directories

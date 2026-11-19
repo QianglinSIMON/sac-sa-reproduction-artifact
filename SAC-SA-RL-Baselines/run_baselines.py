@@ -1,4 +1,4 @@
-"""Run the eight-method E1 comparison using the sources cited by the rebuttal."""
+"""Run the eight-method RL baseline comparison using the recorded implementations."""
 from __future__ import annotations
 
 import argparse

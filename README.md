@@ -1,6 +1,6 @@
 # SAC-SA Anonymous Reproduction Artifact
 
-The initial-submission part of this artifact contains the code used for the
+The core experiment directories contain the code used for the
 fully synthetic and public-grid-calibrated experiments in the paper. The real-data-calibrated
 semi-synthetic experiment is not included because its source data are
 confidential.
@@ -184,8 +184,8 @@ The check verifies expected entry points, JSON files, Python syntax, absence of
 known personal paths, absence of generated checkpoints or large files, core
 source consistency, and the locked five-seed protocols.
 
-This audit retains the initial-submission packaging restrictions. With the
-rebuttal supplement present, it also flags the required Grid calibration
+This audit retains the core benchmark packaging restrictions. With the
+RL baseline package present, it also flags the required Grid calibration
 files and source-provenance names; it scans locally ignored A/A inputs as
 well. Its implementation is unchanged. The supplement's
 `verify_package.py` checks its own source/configuration hashes and recorded

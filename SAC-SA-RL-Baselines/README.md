@@ -1,8 +1,8 @@
 # SAC-SA: Expanded RL Baseline Comparison
 
-Code for the additional RL baseline comparison in the KDD 2027 rebuttal (E1 / response Table 2). The package follows the **response's result provenance**: seven methods use the original E1 implementation, and TD3-PiNet uses the subsequent PiNet implementation. Algorithm files, frozen configurations, and environment inputs are copied without modification.
+This package compares SAC-SA with seven baselines across five experimental scenarios. Seven methods use the original E1 implementation, and TD3-PiNet uses the subsequent PiNet implementation. Algorithm files, frozen configurations, and environment inputs retain their original contents.
 
-中文整理说明见 [整理说明.md](整理说明.md)。Code and result sources are documented in [docs/PROVENANCE.md](docs/PROVENANCE.md).
+Code and result sources are documented in [docs/PROVENANCE.md](docs/PROVENANCE.md).
 
 **Public repository scope:** A/A T6/T12 code is included, but the 34 confidential files under those scenarios' `data_sim/` and `aa_data_based_simulator_outputs/` directories are withheld. Their original hashes and configuration references remain intact. Restore the authorized private inputs before running A/A scenarios or `verify_package.py`, which checks the complete five-scenario package. Synthetic T6/T12 and Public-grid T20 include their required inputs.
 
@@ -47,7 +47,7 @@ provenance/              Copied-file hashes, recorded run configurations/environ
 docs/                    Code/result provenance explanation
 ```
 
-The two source families are intentionally kept separate. Combining their shared modules would change the source identities associated with the results. Some legacy methods and configuration files remain inside these frozen packages because the original protocol verifiers enumerate them; the root launcher exposes only the eight methods above. Use the root launcher for the response comparison.
+The two source families are intentionally kept separate. Combining their shared modules would change the source identities associated with the results. Some legacy methods and configuration files remain inside these frozen packages because the original protocol verifiers enumerate them; the root launcher exposes only the eight methods above. Use the root launcher for the eight-method comparison.
 
 ## Environment
 
@@ -89,7 +89,7 @@ python summarize_baselines.py runs/full_comparison
 
 Execution is serial. Select scenarios/methods/seeds explicitly to divide work across machines, using different output roots. Existing output roots are refused rather than overwritten. Failed jobs remain recorded and stop the queue; automatic resume is not added. `--dry-run` executes the original protocol/configuration checks and requires PyTorch, but performs no training or evaluation.
 
-`smoke` uses the original small diagnostic overrides. It is not a formal experiment, and Grid's smoke profile relaxes the simulator quality gate. Formal runs retain the original quality gate. Smoke results must not be used for the response table.
+`smoke` uses the original small diagnostic overrides. It is not a formal experiment, and Grid's smoke profile relaxes the simulator quality gate. Formal runs retain the original quality gate. Smoke results are diagnostic and are excluded from formal comparisons.
 
 ## Results and interpretation
 
@@ -107,4 +107,4 @@ The packaged entry point also passed a 200-job formal configuration dry-run. Eve
 
 `provenance/packaging_validation.json` records these checks. `verify_package.py` is portable and does not require the original workspace. `.gitattributes` preserves exact file bytes so Git newline conversion does not invalidate the source/configuration hashes.
 
-Keep the hidden `experiments/**/.cache/public_city_panel/*.pt` files: they are frozen target-environment calibration inputs, not disposable training checkpoints. A/A `data_sim/` and `aa_data_based_simulator_outputs/` files must remain private and are ignored by Git. The repository also excludes virtual environments, training checkpoints, smoke outputs, unrelated E2–E11 experiments, and remote-machine schedulers.
+Keep the hidden `experiments/**/.cache/public_city_panel/*.pt` files: they are frozen target-environment calibration inputs, not disposable training checkpoints. A/A `data_sim/` and `aa_data_based_simulator_outputs/` files must remain private and are ignored by Git. The repository also excludes virtual environments, training checkpoints, smoke outputs, unrelated experiment packages, and remote-machine schedulers.

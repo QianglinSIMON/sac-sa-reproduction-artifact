@@ -2152,8 +2152,11 @@
     {
       "path": "results/recorded/TABLE_ORIGINAL_E1_PLUS_PINET.md",
       "source": "SAC-SA-Rebutal_res/E1_pinet_replacement_20261001/TABLE_ORIGINAL_E1_PLUS_PINET.md",
-      "sha256": "810da0b073d703e75f83a3b1fa5b5ed98c07fd00a6fd9d36c21a9bcf2366be8d",
-      "bytes": 2169
+      "sha256": "26190d4e53fa08ec24da69f25a3760ad2d70f59e2fa96d642c797e23dea328d6",
+      "bytes": 2662,
+      "source_sha256": "810da0b073d703e75f83a3b1fa5b5ed98c07fd00a6fd9d36c21a9bcf2366be8d",
+      "source_bytes": 2169,
+      "transformation": "English translation of documentation; numeric table entries unchanged."
     },
     {
       "path": "results/recorded/operational_baselines.csv",
