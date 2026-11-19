@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -193,11 +194,6 @@ INTERNAL_TRACE_PATTERNS = {
 }
 PACKAGE_EXTERNAL_PATTERNS = {
     "external paper-figure source path": re.compile(r"\bfigs-sac-sa\b"),
-    "identifying upstream project name": re.compile(r"\bMDPOD\b", re.IGNORECASE),
-    "identifying upstream account": re.compile(r"\bcallmespring\b", re.IGNORECASE),
-    "identifying upstream repository URL": re.compile(
-        r"github\.com/callmespring", re.IGNORECASE
-    ),
 }
 REQUIRED_DEPENDENCIES = {
     "numpy",
@@ -278,7 +274,12 @@ def main() -> int:
             if fragment not in text:
                 errors.append(f"{relative}: missing locked fragment {fragment!r}")
 
-    for path in ROOT.rglob("*"):
+    # Core modules exclude generated results. The baseline package has a separate
+    # manifest for its required calibration inputs, saved summaries, and private inputs.
+    core_paths = [ROOT / name for name in REQUIRED_ROOT_FILES]
+    for directory in (*EXPECTED, "tools"):
+        core_paths.extend((ROOT / directory).rglob("*"))
+    for path in core_paths:
         relative = path.relative_to(ROOT)
         relative_text = relative.as_posix()
         if path.is_symlink():
@@ -325,6 +326,14 @@ def main() -> int:
                 if pattern.search(text):
                     errors.append(f"{label} in {relative}")
 
+    baseline_checker = ROOT / "rl-baselines" / "verify_package.py"
+    if not baseline_checker.is_file():
+        errors.append("missing RL baseline package verifier")
+    else:
+        result = subprocess.run([sys.executable, "-B", str(baseline_checker)])
+        if result.returncode:
+            errors.append("RL baseline public-package verification failed")
+
     if errors:
         print("Artifact check failed:")
         for error in sorted(set(errors)):
@@ -333,7 +342,7 @@ def main() -> int:
 
     print(
         "Artifact check passed: "
-        f"{len(EXPECTED)} experiment modules and all declared entry points verified."
+        f"{len(EXPECTED)} core experiment modules, their entry points, and the public RL baseline package verified."
     )
     return 0
 

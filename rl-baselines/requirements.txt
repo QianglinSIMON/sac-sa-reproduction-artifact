@@ -1,0 +1,8 @@
+# Recorded dependency set for Python 3.12. Python 3.10: use requirements-py310.txt.
+# PiNet is implemented in PyTorch; no JAX/CVXPY runtime is required.
+# First install a CUDA-enabled PyTorch build suitable for the target GPU.
+numpy==2.3.5
+pandas==3.0.5
+scipy==1.17.1
+matplotlib==3.10.9
+tqdm==4.70.0

@@ -1,34 +1,19 @@
-# Data Availability
+# Data availability
 
-The core experiments provide two reproducible benchmark families.
+## Public benchmarks
 
-1. The fully synthetic benchmark generates all states, actions, responses, and
-   evaluation trajectories from the included code.
-2. The public-grid-calibrated benchmark generates a city-time panel from the
-   included grid-simulator code and then constructs the controlled subsidy DGP.
+The fully synthetic benchmarks generate their inputs and trajectories from the included code. The public-grid-calibrated benchmark generates a city-time panel from the included simulator and constructs the controlled subsidy DGP.
 
-The real-data-calibrated semi-synthetic benchmark is excluded. Its underlying
-marketplace records are non-public and cannot be redistributed. No private raw
-data, derived row-level records, credentials, user identifiers, or local
-absolute paths are intended to be present in this artifact. Running an
-experiment regenerates its episode-level outputs, summaries, figures, and
-model checkpoints locally.
+The [RL benchmark package](rl-baselines/README.md) includes all required inputs for Synthetic T6, Synthetic T12, and Public-grid T20. Its two `experiments/**/.cache/public_city_panel/*.pt` files are frozen target-environment calibrations and must be retained. They are not trained policy checkpoints.
 
-## RL baseline package
+## Confidential A/A benchmarks
 
-`SAC-SA-RL-Baselines/` includes code for the five E1 comparison scenarios.
-The A/A T6/T12 `data_sim/` and `aa_data_based_simulator_outputs/` directories
-are private inputs: all 34 data, residual and calibration files in those
-directories are excluded from Git. Their experiment code and configuration
-remain unchanged. Running A/A scenarios or the full-package integrity check
-requires the original authorized inputs at the paths recorded in each
-scenario's source manifest. The public artifact does not regenerate or
-replace them with a different DGP.
+The A/A-calibrated benchmarks use non-public marketplace records that cannot be redistributed. The core experiment directories exclude these benchmarks. The RL benchmark package provides their code and configurations, but excludes all 34 data, residual, and calibration files under the A/A `data_sim/` and `aa_data_based_simulator_outputs/` directories. The ignore rules keep those files out of Git.
 
-The two Public-grid `.cache/public_city_panel/*.pt` files in the supplement
-are required frozen target-environment calibrations and are included. They
-are not disposable training outputs. Aggregate and seed-level E1 results,
-source hashes and recorded configurations are also included. Provenance
-records retain original filesystem paths as metadata; execution uses the
-packaged scenario paths. Virtual environments, credentials and transient
-training outputs are not included.
+Expected package-relative paths and original hashes are retained in `rl-baselines/provenance/source_files.json` with `availability: private`. Authorized users must supply these inputs locally before running A/A scenarios or the optional `verify_package.py --include-private` check. The default verifier and launcher work with public inputs. No replacement data or alternative DGP is silently substituted.
+
+## Recorded results and generated outputs
+
+The RL benchmark package includes 200 seed-level policy means, aggregate summaries, configuration records, and source hashes for five scenarios and eight methods. A/A summaries contain aggregate experiment results, not source marketplace records or derived row-level inputs. Raw evaluation trajectories and trained policies are not included.
+
+Running an experiment generates its own episode outputs, summaries, figures, and checkpoints locally. Virtual environments, credentials, and transient outputs are excluded from the distribution. Published metadata omits machine-specific paths while retaining scientific settings and source/result hashes.

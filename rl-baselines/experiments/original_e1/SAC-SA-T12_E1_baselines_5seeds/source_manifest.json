@@ -1,0 +1,37 @@
+{
+  "scenario": "synthetic_t12",
+  "source_files": {
+    "DGP_sim_env.py": {
+      "sha256": "9ff7389c6df26f2c4397266a1653b270c83f1ea5ab9558290283da537a5877e8"
+    },
+    "sacsa_rl_components.py": {
+      "sha256": "8821e2b9cfdb738145cc53279587060e0cc36d3b235793378115b77a808bad96"
+    },
+    "iterative_synthetic_sacsa.py": {
+      "sha256": "9bb7b83f01648b2e93f6e1af67e3ad9b42141a1173098b3ff5effa189d494e50"
+    },
+    "single_round_synthetic_sacsa.py": {
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e"
+    }
+  },
+  "source_configs": {
+    "sacsa_reserve": {
+      "sha256": "7b8aa4e0911aa6de81366c537f7b2d56e10ab99e67ab172752e7287aeead3523"
+    },
+    "dfl_pto": {
+      "sha256": "75d3206c250d51e744a8e394aecce33cf21d6dccc911ea6bbbe4de9907bf248a"
+    }
+  },
+  "td3_donor": {
+    "sha256": "f3173459209b63092cee8538a10a6707554a40c30e06f93f377c507316329af0"
+  },
+  "training_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "formal_runs": 40,
+  "old_results_reused": false
+}

@@ -1,0 +1,41 @@
+{
+  "scenario": "grid_t20",
+  "source_files": {
+    "city_panel_models.py": {
+      "sha256": "3f2017b8d1b86a2b39883d876335e28367f3fb7df2962d70c96ab9d0922c52d4"
+    },
+    "city_panel_training.py": {
+      "sha256": "c84e35b04c35c195e11fee25369dfc6621da93d121aef868fc8cfc8ccfbd74d1"
+    },
+    "public_city_panel_dgp.py": {
+      "sha256": "54e680026dea6b2daffbace28008983c43268b4930917d32444aae38355a1f48"
+    },
+    "Env-DGP.py": {
+      "sha256": "bfd6d23675d98b9914c979dc5f5be0b1e054bfe330e76c4e0ba086fa5fc3f202"
+    },
+    "train_public_city_panel.py": {
+      "sha256": "5eaecf5ba22a73c2c744a01d68c7da1cdfe78c4bcd61dbc5c68a4c1957978051"
+    },
+    ".cache\\public_city_panel\\calibration_v8_59e87f571650ad804f9d.pt": {
+      "sha256": "5d9126f5c2fe429d0e1f0a3018c91d12191cba88a1263a11e3a39cc661e626c8"
+    }
+  },
+  "source_configs": {
+    "sacsa_reserve": {
+      "sha256": "58473e6067d43d60cc19f415acf6704143d72da3d0c1ef4fca9ae10d9d301b57"
+    },
+    "dfl_pto": {
+      "sha256": "055b284114e6d75d6d6d0841a0ae04f716de641255b0f6f7ced77936c14db702"
+    }
+  },
+  "training_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "formal_runs": 40,
+  "old_results_reused": false,
+  "calibration_cache_note": "Frozen target-DGP definition is copied byte-for-byte; trained policy results/checkpoints are never reused."
+}

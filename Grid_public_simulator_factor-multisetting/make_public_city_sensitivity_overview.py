@@ -2,7 +2,7 @@
 
 Run this script after all five sweep wrappers have completed. It reads only
 result directories in this experiment folder and has no dependency on files
-outside the anonymous artifact.
+outside this artifact.
 """
 
 from __future__ import annotations

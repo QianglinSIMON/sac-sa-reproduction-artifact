@@ -1,0 +1,67 @@
+{
+  "scenario": "aa_t12",
+  "source_files": {
+    "DGP_sim_env.py": {
+      "sha256": "bdaf781dd17ec43f7131fd1765cabb60f40c0a4283eb418bc83c71ee249f36f3"
+    },
+    "aa_data_based_simulator.py": {
+      "sha256": "1714c2c1c0a2487c6b53ec9a9d64f8f39e1d5f87844345142d48352ef0692121"
+    },
+    "build_aa_data_simulator.py": {
+      "sha256": "8c203e3e65b96f0930ae19e15c4f02ad3103c0f6a65b28f2169822f2490ea5a3"
+    },
+    "sacsa_rl_components.py": {
+      "sha256": "99c0a76f515c36cdb4fc37815fe640a981eb82e904c7c9a0f7cdfb5cd9394c43"
+    },
+    "iterative_synthetic_sacsa.py": {
+      "sha256": "5f401faa19394b97bfafff324efe16b6d35f1ebe173c8c5ff43a1b570d067aa3"
+    },
+    "single_round_synthetic_sacsa.py": {
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e"
+    },
+    "data_sim\\V2_hangzhou_serial_order_dispatch_AA.csv": {
+      "sha256": "969f694b73e65b4a11baa0e330fad28138c1144738933752fc7974c86e352e8f"
+    },
+    "data_sim\\V2_taiyuan_serial_order_dispatch_AA.csv": {
+      "sha256": "30ca6e78d0ece216559a53e22d0234ad9c8bca97ec61623e5f1cd4eee3e8714c"
+    },
+    "aa_data_based_simulator_outputs\\aa_calibration_artifact.npz": {
+      "sha256": "295afe4a38a6a0ff1d4f287d5fb5a4ede1bef9ad8048afae5d54ce7780c1da30"
+    },
+    "aa_data_based_simulator_outputs\\aa_calibration_summary.csv": {
+      "sha256": "49e1ddb32c71756e4608514f98bc71decb46235cb7aa30d633ee83b194c0f76c"
+    },
+    "aa_data_based_simulator_outputs\\aa_ols_coefficients.csv": {
+      "sha256": "42d33043d03d95279d769e30575966b80f43f5d6c8e1f38f29bc6f174608390f"
+    },
+    "aa_data_based_simulator_outputs\\aa_residual_paths.csv": {
+      "sha256": "c86662f442c14e24728be2a76eaf7e9a2729317143c138460ec0b92e6ddf3b12"
+    },
+    "aa_data_based_simulator_outputs\\aa_subsidy_mechanism.csv": {
+      "sha256": "2c1b47fa266cd4a0809e15a7a469f43702edcc6059f03c0c1a2724d40ad4e629"
+    },
+    "aa_data_based_simulator_outputs\\aa_t12_panel.csv": {
+      "sha256": "244db4979a794d6032edf45f6ee1ca36041c6e14b0ccb14f84ab36927b6a75a9"
+    }
+  },
+  "source_configs": {
+    "sacsa_reserve": {
+      "sha256": "9be8193c87c7122d918c67499b5b12ea1280a073b39ed6b39eb77219e19ba011"
+    },
+    "dfl_pto": {
+      "sha256": "53b828ea5f7518e136310c20758afb462176258f25adc3891799356fd398118e"
+    }
+  },
+  "td3_donor": {
+    "sha256": "f4faea705c0e2992ff0da1f22ca4c19c1c3602b5293f71d5597c8e98f279c660"
+  },
+  "training_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030
+  ],
+  "formal_runs": 40,
+  "old_results_reused": false
+}

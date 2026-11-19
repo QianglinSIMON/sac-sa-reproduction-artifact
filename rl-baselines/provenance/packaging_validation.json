@@ -1,0 +1,189 @@
+{
+  "date": "2026-11-19",
+  "source_runs_verified": 200,
+  "source_file_hash_checks": 4240,
+  "source_hash_mismatches": 0,
+  "final_eval_csv_sha256_verified": 200,
+  "final_q3_episodes_checked": 400000,
+  "unique_episodes_per_run": 2000,
+  "seed_mean_tolerance": 1e-09,
+  "algorithm_files_modified": 0,
+  "training_executed": false,
+  "scope": "Source attribution and packaging; not retraining or policy replay.",
+  "packaged_file_hashes_verified": 362,
+  "python_syntax_files_checked": 125,
+  "formal_dry_run_jobs": 200,
+  "formal_dry_run_groups": 10,
+  "formal_config_matches_recorded": 200,
+  "config_comparison_exclusions": [
+    "out_dir",
+    "e1_options",
+    "device",
+    "experiment.device"
+  ],
+  "saved_result_aggregation_runs_checked": 200,
+  "saved_result_aggregation_groups_matched": 40,
+  "dry_run_and_incomplete_summary_rejected": true,
+  "existing_output_overwrite_rejected": true,
+  "validation_python": "3.10.20",
+  "validation_mode": "CPU configuration dry-run; no training, evaluation rollouts, or policy replay",
+  "runtime_import_checks": [
+    {
+      "package": "experiments/original_e1/Grid-T20_E1_baselines_5seeds",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "city_panel_models",
+        "city_panel_training",
+        "public_city_panel_dgp"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "city_panel_models",
+        "city_panel_training",
+        "public_city_panel_dgp",
+        "pinet_budget",
+        "budget_gate"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa",
+        "pinet_budget",
+        "budget_gate"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa",
+        "pinet_budget",
+        "budget_gate"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa",
+        "pinet_budget",
+        "budget_gate"
+      ],
+      "status": "PASS"
+    },
+    {
+      "package": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next",
+      "modules": [
+        "e1_baselines",
+        "e1_offline",
+        "sacsa_rl_components",
+        "DGP_sim_env",
+        "iterative_synthetic_sacsa",
+        "pinet_budget",
+        "budget_gate"
+      ],
+      "status": "PASS"
+    }
+  ],
+  "documentation_revision": {
+    "date": "2026-11-19",
+    "scope": "Documentation and attachment cleanup; benchmark configurations and recorded run values unchanged."
+  },
+  "public_distribution_checks": {
+    "date": "2026-11-19",
+    "public_git_snapshot_checked": true,
+    "public_manifest_hashes_verified": 328,
+    "private_inputs_excluded_from_snapshot": 34,
+    "required_grid_calibration_files_included": 2,
+    "python_syntax_files_checked": 125,
+    "routed_configs_checked": 40,
+    "recorded_seed_results_checked": 200,
+    "recorded_summary_groups_recomputed": 40,
+    "unchanged_experiment_source_config_input_files": 307,
+    "source_manifest_edits": "Machine-specific path fields removed; original source hashes retained.",
+    "recorded_launch_settings_preserved": 200,
+    "public_formal_dry_run_jobs": 120,
+    "public_formal_dry_run_groups": 6,
+    "public_config_matches_recorded": 120,
+    "config_comparison_exclusions": [
+      "out_dir",
+      "e1_options",
+      "device",
+      "experiment.device"
+    ],
+    "negative_checks": {
+      "missing_private_full_verification": "rejected",
+      "missing_private_launch": "rejected before creating output",
+      "changed_public_input": "rejected"
+    },
+    "root_artifact_check": "PASS",
+    "private_input_check_on_authorized_local_copy": "PASS",
+    "training_executed": false,
+    "evaluation_rollouts_executed": false,
+    "validation_python": "3.10.20"
+  }
+}

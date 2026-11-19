@@ -1,4 +1,4 @@
-# SAC-SA Anonymous Reproduction Artifact
+# SAC-SA reproduction artifact
 
 The core experiment directories contain the code used for the
 fully synthetic and public-grid-calibrated experiments in the paper. The real-data-calibrated
@@ -19,12 +19,13 @@ confidential.
 | TD3 training seeds | `SAC-SA-T6_main_train_seeds_td3` | `run_gpu_q3_td3_seeds.ps1` |
 | Actor parameterizations | `SAC-SA-T6_main_actor_compare` | `run_gpu_q3_actor_comparison_windows.ps1` |
 
-Raw episode files, summaries, figures, and checkpoints are intentionally
-excluded. Each experiment regenerates its outputs locally.
+The core experiment directories exclude generated episode files, summaries,
+figures, and checkpoints. Each experiment regenerates its outputs locally.
+The RL benchmark package below additionally provides recorded seed summaries.
 
 ## RL Baseline Comparison
 
-The [SAC-SA-RL-Baselines](SAC-SA-RL-Baselines/README.md) supplement adds
+The [RL benchmark package](rl-baselines/README.md) adds
 CQL-FT, MOPO-FT, SAC-Lag+Filter and TD3-PiNet, together with SAC-SA,
 TD3-Feasible, TD3-Projection and DFL-PTO controls. It includes frozen
 configurations, execution and summary scripts, and seed-level result records.
@@ -33,7 +34,7 @@ configurations, execution and summary scripts, and seed-level result records.
 Synthetic T6/T12 and Public-grid T20 include their required public inputs.
 A/A T6/T12 code is included, but its confidential data and calibration
 artifacts are excluded. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) and
-the supplement README before running those scenarios. The supplement retains
+the package README before running those scenarios. The package retains
 its own dependency lists and source/configuration integrity checks.
 
 ## Controlled Code Variants
@@ -180,22 +181,15 @@ Run the artifact audit from the repository root:
 python .\tools\check_artifact.py
 ```
 
-The check verifies expected entry points, JSON files, Python syntax, absence of
-known personal paths, absence of generated checkpoints or large files, core
-source consistency, and the locked five-seed protocols.
-
-This audit retains the core benchmark packaging restrictions. With the
-RL baseline package present, it also flags the required Grid calibration
-files and source-provenance names; it scans locally ignored A/A inputs as
-well. Its implementation is unchanged. The supplement's
-`verify_package.py` checks its own source/configuration hashes and recorded
-summaries, and requires the private A/A inputs for a full-package check.
-Git publication excludes those private inputs as documented above.
+The audit verifies the core entry points, source consistency, JSON files,
+Python syntax, and locked five-seed protocols. It also invokes the RL package's
+public integrity check, which verifies its required calibration inputs,
+configurations, and recorded summaries. Confidential A/A inputs are optional
+and are checked only with the package verifier's `--include-private` option.
+These checks do not train models or evaluate policies.
 
 ## Data and Licensing
 
-See `DATA_AVAILABILITY.md` for data scope and
-`THIRD_PARTY_NOTICE.md` for the public-grid simulator notice. The relevant code
-is included with permission from the rights holder; identifying attribution is
-withheld during double-blind review and will be restored in the non-anonymous
-release.
+See [data availability](DATA_AVAILABILITY.md) for public and confidential input
+scope, and [third-party notices](THIRD_PARTY_NOTICE.md) for simulator attribution,
+method references, and repository license status.
