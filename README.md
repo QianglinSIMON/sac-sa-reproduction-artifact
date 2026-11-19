@@ -1,7 +1,7 @@
 # SAC-SA Anonymous Reproduction Artifact
 
-This artifact contains the code used for the fully synthetic and
-public-grid-calibrated experiments in the paper. The real-data-calibrated
+The initial-submission part of this artifact contains the code used for the
+fully synthetic and public-grid-calibrated experiments in the paper. The real-data-calibrated
 semi-synthetic experiment is not included because its source data are
 confidential.
 
@@ -21,6 +21,21 @@ confidential.
 
 Raw episode files, summaries, figures, and checkpoints are intentionally
 excluded. Each experiment regenerates its outputs locally.
+
+## Rebuttal RL Baseline Comparison
+
+The [SAC-SA-RL-Baselines](SAC-SA-RL-Baselines/README.md) supplement adds
+CQL-FT, MOPO-FT, SAC-Lag+Filter and TD3-PiNet, together with SAC-SA,
+TD3-Feasible, TD3-Projection and DFL-PTO controls. It includes frozen
+configurations, execution and summary scripts, and seed-level result records.
+The July 27 initial-submission experiment directories and configurations are
+unchanged.
+
+Synthetic T6/T12 and Public-grid T20 include their required public inputs.
+A/A T6/T12 code is included, but its confidential data and calibration
+artifacts are excluded. See [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md) and
+the supplement README before running those scenarios. The supplement retains
+its own dependency lists and source/configuration integrity checks.
 
 ## Controlled Code Variants
 
@@ -169,6 +184,14 @@ python .\tools\check_artifact.py
 The check verifies expected entry points, JSON files, Python syntax, absence of
 known personal paths, absence of generated checkpoints or large files, core
 source consistency, and the locked five-seed protocols.
+
+This audit retains the initial-submission packaging restrictions. With the
+rebuttal supplement present, it also flags the required Grid calibration
+files and source-provenance names; it scans locally ignored A/A inputs as
+well. Its implementation is unchanged. The supplement's
+`verify_package.py` checks its own source/configuration hashes and recorded
+summaries, and requires the private A/A inputs for a full-package check.
+Git publication excludes those private inputs as documented above.
 
 ## Data and Licensing
 

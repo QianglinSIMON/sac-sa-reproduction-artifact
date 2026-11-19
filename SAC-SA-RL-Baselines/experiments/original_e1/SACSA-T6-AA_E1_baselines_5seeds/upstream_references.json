@@ -1,0 +1,19 @@
+{
+  "hardnet_cvx": {
+    "url": "https://raw.githubusercontent.com/azizanlab/hardnet/main/hardnet_cvx.py",
+    "sha256": "df84fa791051b33026bb09a52ac92f87dcfe95c7713ee28a5987bb9a17711a54",
+    "bytes": 4155
+  },
+  "cql": {
+    "url": "https://raw.githubusercontent.com/aviralkumar2907/CQL/master/d4rl/rlkit/torch/sac/cql.py",
+    "sha256": "f1251a0d2518b96fea04a15225d9d9eb23ac3501bf8e51dd37d2e6263c2ee134",
+    "bytes": 16713
+  },
+  "mopo": {
+    "url": "https://raw.githubusercontent.com/tianheyu927/mopo/master/mopo/algorithms/mopo.py",
+    "sha256": "26195d6b62cf78b355c98d80aa1f83b273819dfc7e3a1cb128192a7257c2aecd",
+    "bytes": 29127
+  },
+  "retrieved_on": "2026-09-29",
+  "version_identification": "Exact upstream file content hashes; git HEAD lookup was unavailable. Local implementations are RL adaptations, not unmodified upstream training scripts."
+}

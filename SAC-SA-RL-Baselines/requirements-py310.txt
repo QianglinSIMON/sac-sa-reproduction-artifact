@@ -1,0 +1,8 @@
+# Windows x64 / CPython 3.10 compatibility set. PyTorch is installed separately.
+# PiNet is implemented in PyTorch; no JAX/CVXPY runtime is required.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+matplotlib==3.10.9
+tqdm==4.70.0
+setuptools==80.9.0

@@ -1,0 +1,95 @@
+{
+  "protocol_id": "E1-v3-grid-t20",
+  "method": "mopo_ft",
+  "experiment": {
+    "M": 3,
+    "T": 20,
+    "daily_budget": 10.0,
+    "seed": 2026,
+    "device": "cuda",
+    "q_max": 3,
+    "initial_logged_days": 4500,
+    "new_logged_days": 300,
+    "residual_calibration_days": 1200,
+    "validation_logged_days": 800,
+    "holdout_logged_days": 800,
+    "eval_episodes": 2000,
+    "dgp_calibration_days": 10000,
+    "dgp_baseline_epochs": 100,
+    "logging_batch_size": 512,
+    "training_seed": 2026,
+    "data_seed": 2026,
+    "evaluation_seed": 2026
+  },
+  "simulator": {
+    "hidden_dims": [
+      768,
+      512,
+      256
+    ],
+    "head_dim": 256,
+    "epochs": 600,
+    "finetune_epochs": 120,
+    "batch_size": 4096,
+    "learning_rate": 0.0003,
+    "weight_decay": 1e-05,
+    "patience": 30,
+    "z_loss_weight": 4.0,
+    "bootstrap_models": 12,
+    "bootstrap_epochs": 120,
+    "residual_center": true,
+    "min_holdout_r2_z": 0.8,
+    "min_holdout_r2_z_by_t": 0.45,
+    "strict_quality_gate": true
+  },
+  "policy": {
+    "hidden_dims": [
+      512,
+      512,
+      256
+    ],
+    "train_episodes": 7000,
+    "later_round_train_episodes": 3000,
+    "rollout_batch_size": 256,
+    "updates_per_rollout_batch": 128,
+    "warmup_episodes": 512,
+    "batch_size": 1024,
+    "replay_size": 750000,
+    "init_spend_share": 0.1,
+    "lambda_pess": 0.015,
+    "auto_alpha": true,
+    "fixed_temperature": 0.08,
+    "real_online_update": true,
+    "real_gradient_steps_per_step": 0.04,
+    "real_critic_warmup_updates": 200,
+    "real_exploration_epsilon": 0.25,
+    "behavior_support_lambda": 0.03,
+    "support_prototype_count": 512,
+    "simulator_selection_episodes": 1200,
+    "simulator_selection_z_value": 1.645,
+    "simulator_selection_tolerance": 0.0,
+    "dfl_epochs": 150,
+    "dfl_batch_size": 1024,
+    "dfl_candidate_random_count": 128,
+    "dfl_hidden_dims": [
+      256,
+      256
+    ],
+    "dfl_learning_rate": 0.001,
+    "dfl_decision_weight": 1.0,
+    "dfl_softmax_temperature": 1.0,
+    "dfl_budget_fractions": [
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "bd_gate_parameterization": "squareplus"
+  },
+  "checkpoint_selection": {
+    "source": "paired_learned_simulator_conservative_return",
+    "target_dgp_episodes": 0,
+    "simulator_episodes": 1200,
+    "seed_role": "evaluation_seed"
+  }
+}

@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv*/
+.DS_Store
+._*
+__MACOSX/
+/runs/
+/validation/
+experiments/**/runs_*/
+*.log
+# Keep experiments/**/.cache/public_city_panel/*.pt: these are frozen DGP inputs.
+# Do not globally ignore .cache, *.pt, *.csv, *.npz or configs/.
+!experiments/**/.cache/
+!experiments/**/.cache/public_city_panel/
+!experiments/**/.cache/public_city_panel/*.pt
+
+# Confidential A/A inputs: retain locally, never publish them in this repository.
+/experiments/*/SACSA-*-AA_E1_baselines_5seeds*/data_sim/
+/experiments/*/SACSA-*-AA_E1_baselines_5seeds*/aa_data_based_simulator_outputs/

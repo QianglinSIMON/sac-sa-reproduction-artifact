@@ -1,0 +1,2177 @@
+{
+  "source_base": "SAC-SA-Rebuttal",
+  "files": [
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/baseline_settings.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/cql_ft.json",
+      "sha256": "beef22999d6a0011fa394e37d8f74c44676a815ef08fabd5e72a731e5d41670d",
+      "bytes": 3299
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/dfl_pto.json",
+      "sha256": "590a75144c2dec2df9707813ab8afe5319621330e2259feb4de6e440d7d56bda",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/mopo_ft.json",
+      "sha256": "266fe00a9808293910dd97de2e22e6e0471a566f95d750d18f87a675ac92a127",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/sac_lag.json",
+      "sha256": "e7827157cdcbff91d88fc988fed5746b529352b977b3fc43bee9a0399f3ed932",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "sha256": "47d39ec6aa2703b1ef5fae7814eaa819b39355c3e6b7b18a80e698af99199a77",
+      "bytes": 3306
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "sha256": "cd4a5f8c79fdef6070da886345ff03e60b19d87435469afc0b0b62d0137ff8a4",
+      "bytes": 7613
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "sha256": "3edcd91eda81264d3c4acd41110e5712c16e11faa836da56cfedd73fabea2a68",
+      "bytes": 7637
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/source/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/source/td3_direct_softmax.json",
+      "sha256": "a6716b358616d8887875089e6b97de7f6e5065649edc64ff75e4098094eb98b2",
+      "bytes": 7674
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/source/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/source/td3_projection.json",
+      "sha256": "3ccc227dbb6a894d3b6eed73e7e4c7a720b745121c88b1363ef6a94f3238fde0",
+      "bytes": 7658
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "sha256": "3f1532d55d54f8555790cb0c19d58cd2c3a19f178e7d90bbdb5e777966a446e7",
+      "bytes": 3311
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "sha256": "82ed8d9c79b36be58af3075d8a022a71bac22f7abd7adfd4aebc269590f46f73",
+      "bytes": 3308
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/configs/td3_projection.json",
+      "sha256": "12079b073c5e6c2cb66d61c6689a3b5efb53ed972b25f1459c41015620cb4d44",
+      "bytes": 3307
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/DGP_sim_env.py",
+      "sha256": "30cc86dddf3a1d340dca61c09f40feda7eb55ff13bc17895c05ceca5adf45fb3",
+      "bytes": 32344
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/e1_baselines.py",
+      "sha256": "580fbe294494f9bda8c720dc97794ef033bed228e1df0e0d850da8ab581f7ddb",
+      "bytes": 14518
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/e1_offline.py",
+      "sha256": "0b61728135c195fe2ca810b2a6648d4d8c90946f185f9669dd1a133f28619cfb",
+      "bytes": 12372
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "sha256": "8ae1c7f9ef0bc72259efb62f9d10eff9201e7e04776eb88012f08e15cf5cdd21",
+      "bytes": 228670
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/run_e1.py",
+      "sha256": "360ca15dd27a19c054f0fe5ce22c491904b665ca06a85142ca0284c832d090df",
+      "bytes": 9665
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/sacsa_rl_components.py",
+      "sha256": "b4eb350da12128f452543abd24feebd810710a10c5bd351c54641e01eac2b96d",
+      "bytes": 56965
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/source_manifest.json",
+      "sha256": "ac0dbe9d0ec10fc3c7be207c93699293288108369f65f89b9ee765365796b706",
+      "bytes": 2557
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/summarize_e1.py",
+      "sha256": "add6eb780d1bcb30bc1da474e4736397171a01028e994889c007a3eb76f49f42",
+      "bytes": 5254
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/upstream_references.json",
+      "sha256": "6cac293d8b9b0fe99d2a23e0b82723a2152b7d19b81e30d17de7ed029f698b27",
+      "bytes": 880
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T6_E1_baselines_5seeds/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T6_E1_baselines_5seeds/verify_protocol.py",
+      "sha256": "5d5eaaa33976af01fb0abe28f21364d0b2dc28c7b1e7c4467b208a06a6c5d53e",
+      "bytes": 4854
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/baseline_settings.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/cql_ft.json",
+      "sha256": "b629f0a1925f1334020a0867072336dd311367876c216f14a24b233e7d26080d",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/dfl_pto.json",
+      "sha256": "e01a5426fa7c5bb26e9c2ab0ae0570151d3f8137de6f3f54040052a572ebe3bc",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/mopo_ft.json",
+      "sha256": "d6bf93a5517b6eba74f6417fd4327a68a34ecd5869f1fe9c9fa1942b0b7007a9",
+      "bytes": 3303
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/sac_lag.json",
+      "sha256": "0968cf00385526f0914dba80ec70b68abbda7a04987401b2d1a3ec7a9ccdb35b",
+      "bytes": 3303
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "sha256": "a6ed49f7e92eb42a02f79b286635c2277b728790d3b45b7f7ef426715de9e3fa",
+      "bytes": 3309
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "sha256": "75d3206c250d51e744a8e394aecce33cf21d6dccc911ea6bbbe4de9907bf248a",
+      "bytes": 7584
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "sha256": "7b8aa4e0911aa6de81366c537f7b2d56e10ab99e67ab172752e7287aeead3523",
+      "bytes": 7610
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "sha256": "2d2ec24142f0f4650ba4de4a25f529abea9336dbb725a5cf6d04c93996e5f968",
+      "bytes": 3314
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "sha256": "f9a2221a6877785c0ef77af597c5f074e3d2a73ddafc0b5eedb15298a00125c9",
+      "bytes": 3311
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/configs/td3_projection.json",
+      "sha256": "3f3673c454e46ebafde4c699fc0ff8586b7414ee7101df8f6f00d4839119a1cd",
+      "bytes": 3310
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/DGP_sim_env.py",
+      "sha256": "9ff7389c6df26f2c4397266a1653b270c83f1ea5ab9558290283da537a5877e8",
+      "bytes": 32346
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/e1_baselines.py",
+      "sha256": "580fbe294494f9bda8c720dc97794ef033bed228e1df0e0d850da8ab581f7ddb",
+      "bytes": 14518
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/e1_offline.py",
+      "sha256": "0b61728135c195fe2ca810b2a6648d4d8c90946f185f9669dd1a133f28619cfb",
+      "bytes": 12372
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "sha256": "57af8706c29be39dba00c95dd1f6acec1750cd1006e79349f458987c7a67f102",
+      "bytes": 226831
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/run_e1.py",
+      "sha256": "360ca15dd27a19c054f0fe5ce22c491904b665ca06a85142ca0284c832d090df",
+      "bytes": 9665
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/sacsa_rl_components.py",
+      "sha256": "c16ee0caf7861070eb8d5132d50148f928877a76cd304d02c682ff49296f6f75",
+      "bytes": 58310
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/source_manifest.json",
+      "sha256": "da214d7f9116eb8d68c9d60fc14977adf4e42c2d18db49be24e91bd9ae336f3a",
+      "bytes": 2220
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/summarize_e1.py",
+      "sha256": "add6eb780d1bcb30bc1da474e4736397171a01028e994889c007a3eb76f49f42",
+      "bytes": 5254
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/upstream_references.json",
+      "sha256": "6cac293d8b9b0fe99d2a23e0b82723a2152b7d19b81e30d17de7ed029f698b27",
+      "bytes": 880
+    },
+    {
+      "path": "experiments/original_e1/SAC-SA-T12_E1_baselines_5seeds/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SAC-SA-T12_E1_baselines_5seeds/verify_protocol.py",
+      "sha256": "5d5eaaa33976af01fb0abe28f21364d0b2dc28c7b1e7c4467b208a06a6c5d53e",
+      "bytes": 4854
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator.py",
+      "sha256": "c26164c96a0fba8bfb1ac59c637f4205813bddff0d9d691c6bd44afe2c075cbe",
+      "bytes": 29124
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "sha256": "1a556e456ea2a1eae46fc50863c9e6e3f46d0e7f1ca63d68979976022461efca",
+      "bytes": 27697
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "sha256": "b7ee33d4eed757a92fbd85a5761c14a040729fa46998ad2d49ae04ce1dc6ccc6",
+      "bytes": 5306
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "sha256": "f295fcbdb4478afee7a3144c3857de204ebcaf1f0e2be4d979b25b05a375f46f",
+      "bytes": 2606
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_panel.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_panel.csv",
+      "sha256": "d2605d4c6b669f8719fa26be194004e581dea66e405f9120940f4fe7319a2dee",
+      "bytes": 26001
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "sha256": "44dfa43793c0ea8ac4ea0674bdd54f1ba774c71e95bfb1b03ce3353b00e9a287",
+      "bytes": 32869
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "sha256": "9ffc81e8695cbae1423e63de942a17e01fb0efde5e465165e13dd401bfe51eda",
+      "bytes": 1515
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_t6_panel.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_t6_panel.csv",
+      "sha256": "d2605d4c6b669f8719fa26be194004e581dea66e405f9120940f4fe7319a2dee",
+      "bytes": 26001
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/baseline_settings.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/build_aa_data_simulator.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/build_aa_data_simulator.py",
+      "sha256": "b3fb26028962871140124cfce1ace9784f69a4d0b6fb43f2d2a75670c2e44311",
+      "bytes": 4904
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/cql_ft.json",
+      "sha256": "f2ec1af76cd57172bf0767bcca4d61ce697532aae05f3f540456441eb6bdcb73",
+      "bytes": 3730
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/dfl_pto.json",
+      "sha256": "66971f895cf5565cb5af180f47f835828547f64b28f4b297b8b4206f6f5bf11f",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/mopo_ft.json",
+      "sha256": "63c414c777d5c186c19c4cd6caf69e79a3926f01ec18a98505199b4e79a668e9",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/sac_lag.json",
+      "sha256": "5b900a3d6fc3b95fb15e95d790f2d32a367880fe49c25a14ca0346a2826961a9",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "sha256": "4e06335a8713dae9647c822fd36c04cb4f9600cb1080e17d88149445af5ac0e0",
+      "bytes": 3737
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "sha256": "aa5b48c6f916a556203129b79dadd77fd4908e7e0a1e4bba8d327f62fcba0015",
+      "bytes": 8129
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "sha256": "fe960d0827b623855fec0a3f936a547e6f736ce6fd9e13a55345650fa8ea24e3",
+      "bytes": 8153
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/source/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/source/td3_direct_softmax.json",
+      "sha256": "d90d3b10e4511fa69880b41acb1a3c1a7461cf8b021f1bb565bccfa2b5785e0c",
+      "bytes": 8192
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/source/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/source/td3_projection.json",
+      "sha256": "4b2912f87c19e59f4874044cfc14c527d72ccc5025f6fd33bedc31fa98cda0df",
+      "bytes": 8176
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "sha256": "0e191e10f2d4d5e9b66e4fd86f116f349244d356682d8e71f1037009614d449e",
+      "bytes": 3742
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "sha256": "e3907a43a2acd4a685d57e91845ce13f4e3cc495c802b42cac41e7ad13bc4c3a",
+      "bytes": 3739
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/configs/td3_projection.json",
+      "sha256": "7c2020e45a427d97781be99b61908a35e2783372d83d6194bd2655e4bbbd48c7",
+      "bytes": 3738
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "sha256": "969f694b73e65b4a11baa0e330fad28138c1144738933752fc7974c86e352e8f",
+      "bytes": 126833
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "sha256": "30ca6e78d0ece216559a53e22d0234ad9c8bca97ec61623e5f1cd4eee3e8714c",
+      "bytes": 63245
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/DGP_sim_env.py",
+      "sha256": "1d33e5dd7337070e12554b88b086d1928e3f6179d84790c6a6dc46be9876b43f",
+      "bytes": 17538
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/e1_baselines.py",
+      "sha256": "580fbe294494f9bda8c720dc97794ef033bed228e1df0e0d850da8ab581f7ddb",
+      "bytes": 14518
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/e1_offline.py",
+      "sha256": "0b61728135c195fe2ca810b2a6648d4d8c90946f185f9669dd1a133f28619cfb",
+      "bytes": 12372
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "sha256": "d3a68519eed03b15a2a4e236d2b938f0231a3afb46c5269888c2db2b8569bc5f",
+      "bytes": 248597
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/run_e1.py",
+      "sha256": "360ca15dd27a19c054f0fe5ce22c491904b665ca06a85142ca0284c832d090df",
+      "bytes": 9665
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/sacsa_rl_components.py",
+      "sha256": "31efb7d95b832998a4565c009421916b41e7d85747bcc5e8a7a29c483d2dc604",
+      "bytes": 58154
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/source_manifest.json",
+      "sha256": "dc2a247b8e30acb9f5745c4fddb8190d39d60ad0ce9108bf31993a809732f535",
+      "bytes": 6381
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/summarize_e1.py",
+      "sha256": "add6eb780d1bcb30bc1da474e4736397171a01028e994889c007a3eb76f49f42",
+      "bytes": 5254
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/upstream_references.json",
+      "sha256": "6cac293d8b9b0fe99d2a23e0b82723a2152b7d19b81e30d17de7ed029f698b27",
+      "bytes": 880
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T6-AA_E1_baselines_5seeds/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T6-AA_E1_baselines_5seeds/verify_protocol.py",
+      "sha256": "5d5eaaa33976af01fb0abe28f21364d0b2dc28c7b1e7c4467b208a06a6c5d53e",
+      "bytes": 4854
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator.py",
+      "sha256": "1714c2c1c0a2487c6b53ec9a9d64f8f39e1d5f87844345142d48352ef0692121",
+      "bytes": 29046
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "sha256": "295afe4a38a6a0ff1d4f287d5fb5a4ede1bef9ad8048afae5d54ce7780c1da30",
+      "bytes": 51086
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "sha256": "49e1ddb32c71756e4608514f98bc71decb46235cb7aa30d633ee83b194c0f76c",
+      "bytes": 11312
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "sha256": "42d33043d03d95279d769e30575966b80f43f5d6c8e1f38f29bc6f174608390f",
+      "bytes": 5573
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "sha256": "c86662f442c14e24728be2a76eaf7e9a2729317143c138460ec0b92e6ddf3b12",
+      "bytes": 69425
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "sha256": "2c1b47fa266cd4a0809e15a7a469f43702edcc6059f03c0c1a2724d40ad4e629",
+      "bytes": 3067
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_t12_panel.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/aa_data_based_simulator_outputs/aa_t12_panel.csv",
+      "sha256": "244db4979a794d6032edf45f6ee1ca36041c6e14b0ccb14f84ab36927b6a75a9",
+      "bytes": 52273
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/baseline_settings.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/build_aa_data_simulator.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/build_aa_data_simulator.py",
+      "sha256": "8c203e3e65b96f0930ae19e15c4f02ad3103c0f6a65b28f2169822f2490ea5a3",
+      "bytes": 4904
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/cql_ft.json",
+      "sha256": "ea33da304c88338409fb319ba9b866585fab473f85d41a0a60bbabc916e80beb",
+      "bytes": 3429
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/dfl_pto.json",
+      "sha256": "d9ad42fcec42bfec93de15551e12b763d0965f7f158339af2887a1f0daf8918f",
+      "bytes": 3428
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/mopo_ft.json",
+      "sha256": "1f53eae2348eadc5a5f82729b26c73116b26ffcbe7ca7ef327baadc9c55b57ab",
+      "bytes": 3430
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/sac_lag.json",
+      "sha256": "0ad47cee1412cf8dbf3f62d696822958a492d8ca990326b71e3c22dead0939f0",
+      "bytes": 3430
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "sha256": "f9ca46febaa30756841ecaaa8328ec96f7315dca8cca5eaff86cc0e17abef6f4",
+      "bytes": 3436
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "sha256": "53b828ea5f7518e136310c20758afb462176258f25adc3891799356fd398118e",
+      "bytes": 7769
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "sha256": "9be8193c87c7122d918c67499b5b12ea1280a073b39ed6b39eb77219e19ba011",
+      "bytes": 7796
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "sha256": "c0e0a8c908cd9ee3987daae01f7053900727fec3c72739b2989884a17ef4f23b",
+      "bytes": 3441
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "sha256": "dd46f850ca8a373f28f710ae9b5401dc543db159a7f6b9421940e438d06c0621",
+      "bytes": 3438
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/configs/td3_projection.json",
+      "sha256": "13236974e441ad5d87cf08ada10c8190dbd0e07fdaec5e62f91c2575aad4757b",
+      "bytes": 3437
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "sha256": "969f694b73e65b4a11baa0e330fad28138c1144738933752fc7974c86e352e8f",
+      "bytes": 126833
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "sha256": "30ca6e78d0ece216559a53e22d0234ad9c8bca97ec61623e5f1cd4eee3e8714c",
+      "bytes": 63245
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/DGP_sim_env.py",
+      "sha256": "bdaf781dd17ec43f7131fd1765cabb60f40c0a4283eb418bc83c71ee249f36f3",
+      "bytes": 17467
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/e1_baselines.py",
+      "sha256": "580fbe294494f9bda8c720dc97794ef033bed228e1df0e0d850da8ab581f7ddb",
+      "bytes": 14518
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/e1_offline.py",
+      "sha256": "0b61728135c195fe2ca810b2a6648d4d8c90946f185f9669dd1a133f28619cfb",
+      "bytes": 12372
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/iterative_synthetic_sacsa.py",
+      "sha256": "fc9cdc5c045cc0916986bf63e3182148a018abfccb8fefb38cfdaab3b66c27d8",
+      "bytes": 231572
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/run_e1.py",
+      "sha256": "360ca15dd27a19c054f0fe5ce22c491904b665ca06a85142ca0284c832d090df",
+      "bytes": 9665
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/sacsa_rl_components.py",
+      "sha256": "1dab8d9ae3c935e107683c1f5e613224bb64ae727929da7fc3de91993a0dc0ae",
+      "bytes": 58112
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/source_manifest.json",
+      "sha256": "83440e038ce4037ea61533ff83bd78383f4c9bcfcb5160c6ae640286ed1c6669",
+      "bytes": 5607
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/summarize_e1.py",
+      "sha256": "add6eb780d1bcb30bc1da474e4736397171a01028e994889c007a3eb76f49f42",
+      "bytes": 5254
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/upstream_references.json",
+      "sha256": "6cac293d8b9b0fe99d2a23e0b82723a2152b7d19b81e30d17de7ed029f698b27",
+      "bytes": 880
+    },
+    {
+      "path": "experiments/original_e1/SACSA-T12-AA_E1_baselines_5seeds/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/SACSA-T12-AA_E1_baselines_5seeds/verify_protocol.py",
+      "sha256": "5d5eaaa33976af01fb0abe28f21364d0b2dc28c7b1e7c4467b208a06a6c5d53e",
+      "bytes": 4854
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/.cache/public_city_panel/calibration_v8_59e87f571650ad804f9d.pt",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/.cache/public_city_panel/calibration_v8_59e87f571650ad804f9d.pt",
+      "sha256": "5d9126f5c2fe429d0e1f0a3018c91d12191cba88a1263a11e3a39cc661e626c8",
+      "bytes": 24606085
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/baseline_settings.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/city_panel_models.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/city_panel_models.py",
+      "sha256": "97d61514446b195d46981e28e6cfab38cea4dcee8e73c5b0c0f124862a2fc7c2",
+      "bytes": 20497
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/city_panel_training.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/city_panel_training.py",
+      "sha256": "50a4d04dd4c7b31b8c05b95ae94aca20db00f056895e3c5d9e7123f35e44528a",
+      "bytes": 102516
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/cql_ft.json",
+      "sha256": "879f9c4f238a7b1896c326a6d06cdec01281108759e0d9faefd51e3546f89798",
+      "bytes": 2381
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/dfl_pto.json",
+      "sha256": "b99ac5320a0b74391d515441551db3211beecc58f8920b1e366a59df55e1c26e",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/mopo_ft.json",
+      "sha256": "4cfa1f3aef223bc9e7a1f57aafd6a73bc6d5e2e35a59c91169b19002eca2eb97",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/sac_lag.json",
+      "sha256": "e5c0f229313ee9a2880c7db126c98705aedebae5114d3dc8e8bfdc9b55ded047",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/sacsa_reserve.json",
+      "sha256": "c5b457c50d4d528ff524e46306748b29913831e8bafa733dbd11779329332a90",
+      "bytes": 2388
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/source/dfl_pto.json",
+      "sha256": "055b284114e6d75d6d6d0841a0ae04f716de641255b0f6f7ced77936c14db702",
+      "bytes": 2300
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/source/sacsa_reserve.json",
+      "sha256": "58473e6067d43d60cc19f415acf6704143d72da3d0c1ef4fca9ae10d9d301b57",
+      "bytes": 2306
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/td3_direct_softmax.json",
+      "sha256": "f4cf1c77597789137e660d07988fe96364186d003c5f8bee7e82cda4eb1766df",
+      "bytes": 2393
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/td3_hardnet_cvx.json",
+      "sha256": "e49fa1a0dc2d014323b4443ae28c25d101c1b6a8685da0d3b2736f1b6afaba3d",
+      "bytes": 2390
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/configs/td3_projection.json",
+      "sha256": "11f04568bf35e6d4fa81a31d0aac3404b73251d867b3c7860063f214c8e2f756",
+      "bytes": 2389
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/e1_baselines.py",
+      "sha256": "ad887b920e82624bf20380febcf1cce83ecacb6d226e5b818634dd61f13cc86a",
+      "bytes": 22203
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/e1_entry.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/e1_entry.py",
+      "sha256": "015414b2ed670990aa87fae30b93f215d711427b9f2e2ceffb955a94d5759d8b",
+      "bytes": 2405
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/e1_offline.py",
+      "sha256": "31089715e994e277da9c0cae4d354aa1ce6a77f1c664ff6a718f9dbc448c41ce",
+      "bytes": 12734
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/Env-DGP.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/Env-DGP.py",
+      "sha256": "bfd6d23675d98b9914c979dc5f5be0b1e054bfe330e76c4e0ba086fa5fc3f202",
+      "bytes": 29032
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/public_city_panel_dgp.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/public_city_panel_dgp.py",
+      "sha256": "54e680026dea6b2daffbace28008983c43268b4930917d32444aae38355a1f48",
+      "bytes": 54348
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/run_e1.py",
+      "sha256": "fe8937c88abbe10f3775fe3b1eac13f1902dab9f108602475c69df712a698d05",
+      "bytes": 9123
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/source_manifest.json",
+      "sha256": "294524b4da6817d252d56f32fa56e0438ff385a6a6221e0a968980e42d44b04b",
+      "bytes": 2846
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/summarize_e1.py",
+      "sha256": "fb079e16bb0e3cb182575b7802a9990f53e67bc53b07cc7fc66aca4944fe04a2",
+      "bytes": 5728
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/train_public_city_panel.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/train_public_city_panel.py",
+      "sha256": "5eaecf5ba22a73c2c744a01d68c7da1cdfe78c4bcd61dbc5c68a4c1957978051",
+      "bytes": 8390
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/upstream_references.json",
+      "sha256": "6cac293d8b9b0fe99d2a23e0b82723a2152b7d19b81e30d17de7ed029f698b27",
+      "bytes": 880
+    },
+    {
+      "path": "experiments/original_e1/Grid-T20_E1_baselines_5seeds/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/SAC-E1-simple/Grid-T20_E1_baselines_5seeds/verify_protocol.py",
+      "sha256": "5d5eaaa33976af01fb0abe28f21364d0b2dc28c7b1e7c4467b208a06a6c5d53e",
+      "bytes": 4854
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/baseline_settings.json",
+      "sha256": "72953156c43277de4e8c0fb1f07b7657730cb64a3edbe3caec0eb81c0fc37667",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/budget_gate.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/budget_gate.py",
+      "sha256": "e11a0c36a60caf2a03ed3dfb15e61b55f296e3e7cb2abc80deacafaae706c2c7",
+      "bytes": 1549
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "sha256": "d64b8e23e9c41203d219cd7adfb4db4a0f33c38a787c5004b76ffbbdea5cef9b",
+      "bytes": 3346
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "sha256": "8e3b374e6345da61c5227195ca5b2890f380e2eba38522c1a9dc1ad38a1d3aa7",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "sha256": "c0005d213a9aeb7ce149d8e3d10b05859b71ddeebccf12ddf3594b9dd6e8e949",
+      "bytes": 3347
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "sha256": "29898d3c3baf8e9756335531d790c6a8a667255630ecc12d47cfca386b4f301b",
+      "bytes": 3353
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "sha256": "beef22999d6a0011fa394e37d8f74c44676a815ef08fabd5e72a731e5d41670d",
+      "bytes": 3299
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "sha256": "590a75144c2dec2df9707813ab8afe5319621330e2259feb4de6e440d7d56bda",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "sha256": "266fe00a9808293910dd97de2e22e6e0471a566f95d750d18f87a675ac92a127",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "sha256": "e7827157cdcbff91d88fc988fed5746b529352b977b3fc43bee9a0399f3ed932",
+      "bytes": 3300
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "sha256": "47d39ec6aa2703b1ef5fae7814eaa819b39355c3e6b7b18a80e698af99199a77",
+      "bytes": 3306
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "sha256": "3f1532d55d54f8555790cb0c19d58cd2c3a19f178e7d90bbdb5e777966a446e7",
+      "bytes": 3311
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "sha256": "82ed8d9c79b36be58af3075d8a022a71bac22f7abd7adfd4aebc269590f46f73",
+      "bytes": 3308
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "sha256": "12079b073c5e6c2cb66d61c6689a3b5efb53ed972b25f1459c41015620cb4d44",
+      "bytes": 3307
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "sha256": "147583294b7b1ed414ae3a8ec36a21b055062b69713b0a8088b199327015dc97",
+      "bytes": 3312
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "sha256": "565ac43ed6add4f4922f6b3fb96ebdce5eba40e0bf0f0d5c23ec59087360df7a",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "sha256": "c71b7a253cad2db8c9f950d49f3969869a8bab0bbe7fd25cba45ec9f8b7fedc5",
+      "bytes": 3353
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "sha256": "cd4a5f8c79fdef6070da886345ff03e60b19d87435469afc0b0b62d0137ff8a4",
+      "bytes": 7613
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "sha256": "3edcd91eda81264d3c4acd41110e5712c16e11faa836da56cfedd73fabea2a68",
+      "bytes": 7637
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/td3_direct_softmax.json",
+      "sha256": "a6716b358616d8887875089e6b97de7f6e5065649edc64ff75e4098094eb98b2",
+      "bytes": 7674
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/source/td3_projection.json",
+      "sha256": "3ccc227dbb6a894d3b6eed73e7e4c7a720b745121c88b1363ef6a94f3238fde0",
+      "bytes": 7658
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "sha256": "121df9bf6d21a24a63057b3657a083618fbf6a5cb1be081d55bdf273b7a6eb86",
+      "bytes": 3313
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "sha256": "c478c92c6538c75840fde45fa92fa01b2370ea435c0498da19fbb9f65ec9b005",
+      "bytes": 3304
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "sha256": "4fedcf7ab8ccb6cf5f3de96d4be52d5b51e45a23a5a44cc283386cf8e3b63077",
+      "bytes": 3309
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "sha256": "30cc86dddf3a1d340dca61c09f40feda7eb55ff13bc17895c05ceca5adf45fb3",
+      "bytes": 32344
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/e1_baselines.py",
+      "sha256": "83c7987439712962aacef0d85b028ab551cf358306595f467394cabd59f42e5a",
+      "bytes": 13111
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/e1_methods.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/e1_methods.py",
+      "sha256": "040ffeda744af59cd9328e49863a9ca06a116ef3a0574f64ea909af1603a7899",
+      "bytes": 924
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/e1_offline.py",
+      "sha256": "e3e9f74d35734153db297b9abec963af57c26608dc07abf3ed42ae1e9d2f0090",
+      "bytes": 12718
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "sha256": "79af8aa8ad45f7906dc0677a3c1f37e45900d5d919d5dc6b78969fcac02cd7bb",
+      "bytes": 228850
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "sha256": "ecb5f29239c1c802a9fa5c3aa795cf45983cb226b49e7b66392f0b05724a24a7",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "sha256": "40240779f9b053c3461fef00fa7890d2b1e481ec2e20b6696b9021428bbab0f6",
+      "bytes": 3651
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/pinet_budget.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/pinet_budget.py",
+      "sha256": "22cf839161feeb27230cd3d572d4ee2dda73860cef50f1b72c825dcf0c135fa9",
+      "bytes": 5805
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/run_e1.py",
+      "sha256": "9d92b1c8a894b4267391ad521b18f2ca0ecb548e7f5d75d1165633b45bf9b223",
+      "bytes": 10899
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "sha256": "7a853596935d10ddb27546fa85c92250421d0dc501e1563382add82ba9992b05",
+      "bytes": 59546
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/source_manifest.json",
+      "sha256": "ac0dbe9d0ec10fc3c7be207c93699293288108369f65f89b9ee765365796b706",
+      "bytes": 2557
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/summarize_e1.py",
+      "sha256": "efec74c915892b37cb62d04dcf17f1b59e4c642e9a2cc945c64cad62b8aa4fb5",
+      "bytes": 5420
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/upstream_references.json",
+      "sha256": "ec5bb2edf74858ebfd7639c68c8f72c59f90bd9b5279088cc540ded6b9370b44",
+      "bytes": 1003
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T6_E1_baselines_5seeds_next/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/verify_protocol.py",
+      "sha256": "25f3e1ed156a74923d58b09d20865e66d0ba607702c522727bbc629cfde8a57f",
+      "bytes": 5618
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/baseline_settings.json",
+      "sha256": "72953156c43277de4e8c0fb1f07b7657730cb64a3edbe3caec0eb81c0fc37667",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/budget_gate.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/budget_gate.py",
+      "sha256": "e11a0c36a60caf2a03ed3dfb15e61b55f296e3e7cb2abc80deacafaae706c2c7",
+      "bytes": 1549
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "sha256": "d301237eb837c9108cad583ed1f325292d5ba2b1f627ceb967aa63cafec73c64",
+      "bytes": 3349
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "sha256": "4bf416309215ba89d69ac0a9a6ea1f42c7e8b0404684517070ed529314fd74d4",
+      "bytes": 3304
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "sha256": "e3ddf0ec8a4841a1b82a7739bc66a89a90f865283b724a67ce58db65394f78de",
+      "bytes": 3350
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "sha256": "7f66d7decba34a2d74829dbea6dc1e1f4dcd7cca9f02f4bf7b5fd8c6f972132e",
+      "bytes": 3356
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "sha256": "b629f0a1925f1334020a0867072336dd311367876c216f14a24b233e7d26080d",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "sha256": "e01a5426fa7c5bb26e9c2ab0ae0570151d3f8137de6f3f54040052a572ebe3bc",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "sha256": "d6bf93a5517b6eba74f6417fd4327a68a34ecd5869f1fe9c9fa1942b0b7007a9",
+      "bytes": 3303
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "sha256": "0968cf00385526f0914dba80ec70b68abbda7a04987401b2d1a3ec7a9ccdb35b",
+      "bytes": 3303
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "sha256": "a6ed49f7e92eb42a02f79b286635c2277b728790d3b45b7f7ef426715de9e3fa",
+      "bytes": 3309
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "sha256": "2d2ec24142f0f4650ba4de4a25f529abea9336dbb725a5cf6d04c93996e5f968",
+      "bytes": 3314
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "sha256": "f9a2221a6877785c0ef77af597c5f074e3d2a73ddafc0b5eedb15298a00125c9",
+      "bytes": 3311
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "sha256": "3f3673c454e46ebafde4c699fc0ff8586b7414ee7101df8f6f00d4839119a1cd",
+      "bytes": 3310
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "sha256": "8ab720000a93ae13627aef4057b5666e741c105293355c94f3ca7d0706c9033e",
+      "bytes": 3315
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "sha256": "5cad18a42e9de0c0b084af7eb4b8f9b71202f8a9f0ab60dfcc01412f95b441f5",
+      "bytes": 3305
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "sha256": "1dce638f74b0e9b585d6cacd0679fae017bb12f3d1e1f87f89d2cc6b73578be8",
+      "bytes": 3356
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "sha256": "75d3206c250d51e744a8e394aecce33cf21d6dccc911ea6bbbe4de9907bf248a",
+      "bytes": 7584
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "sha256": "7b8aa4e0911aa6de81366c537f7b2d56e10ab99e67ab172752e7287aeead3523",
+      "bytes": 7610
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "sha256": "901bbf0a7ddfaf196775888d2a4a0c222cd1cf4c14814d4a9bd64540701460a1",
+      "bytes": 3316
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "sha256": "88538caf9bdba05230cf05f9cb9f1a3c84a5caf572351ad0961188a41aa9c35f",
+      "bytes": 3307
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "sha256": "f540b1e810186a62fe8807f68cc9975d4114c7dc5908fa739d1d9aca3b303115",
+      "bytes": 3312
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "sha256": "9ff7389c6df26f2c4397266a1653b270c83f1ea5ab9558290283da537a5877e8",
+      "bytes": 32346
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/e1_baselines.py",
+      "sha256": "83c7987439712962aacef0d85b028ab551cf358306595f467394cabd59f42e5a",
+      "bytes": 13111
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/e1_methods.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/e1_methods.py",
+      "sha256": "040ffeda744af59cd9328e49863a9ca06a116ef3a0574f64ea909af1603a7899",
+      "bytes": 924
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/e1_offline.py",
+      "sha256": "e3e9f74d35734153db297b9abec963af57c26608dc07abf3ed42ae1e9d2f0090",
+      "bytes": 12718
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "sha256": "4cd7f674fe9a05a81e1e35e046b6518819e6cce1fbc95eabe9c999134d04a539",
+      "bytes": 227011
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "sha256": "ecb5f29239c1c802a9fa5c3aa795cf45983cb226b49e7b66392f0b05724a24a7",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "sha256": "c58c6b28e96af6612c5d2f4579cd0bffc31dc1e61be1a042481aeb01f194fec3",
+      "bytes": 3426
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/pinet_budget.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/pinet_budget.py",
+      "sha256": "22cf839161feeb27230cd3d572d4ee2dda73860cef50f1b72c825dcf0c135fa9",
+      "bytes": 5805
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/run_e1.py",
+      "sha256": "9d92b1c8a894b4267391ad521b18f2ca0ecb548e7f5d75d1165633b45bf9b223",
+      "bytes": 10899
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "sha256": "9fdc4b26c49c0ce24eb900982b0cf35fa4a996932de6d6f2700a9525bfa223cc",
+      "bytes": 59504
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/source_manifest.json",
+      "sha256": "da214d7f9116eb8d68c9d60fc14977adf4e42c2d18db49be24e91bd9ae336f3a",
+      "bytes": 2220
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/summarize_e1.py",
+      "sha256": "efec74c915892b37cb62d04dcf17f1b59e4c642e9a2cc945c64cad62b8aa4fb5",
+      "bytes": 5420
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/upstream_references.json",
+      "sha256": "ec5bb2edf74858ebfd7639c68c8f72c59f90bd9b5279088cc540ded6b9370b44",
+      "bytes": 1003
+    },
+    {
+      "path": "experiments/pinet/SAC-SA-T12_E1_baselines_5seeds_next/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T12_E1_baselines_5seeds_next/verify_protocol.py",
+      "sha256": "25f3e1ed156a74923d58b09d20865e66d0ba607702c522727bbc629cfde8a57f",
+      "bytes": 5618
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator.py",
+      "sha256": "c26164c96a0fba8bfb1ac59c637f4205813bddff0d9d691c6bd44afe2c075cbe",
+      "bytes": 29124
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "sha256": "1a556e456ea2a1eae46fc50863c9e6e3f46d0e7f1ca63d68979976022461efca",
+      "bytes": 27697
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "sha256": "b7ee33d4eed757a92fbd85a5761c14a040729fa46998ad2d49ae04ce1dc6ccc6",
+      "bytes": 5306
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "sha256": "f295fcbdb4478afee7a3144c3857de204ebcaf1f0e2be4d979b25b05a375f46f",
+      "bytes": 2606
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_panel.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_panel.csv",
+      "sha256": "d2605d4c6b669f8719fa26be194004e581dea66e405f9120940f4fe7319a2dee",
+      "bytes": 26001
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "sha256": "44dfa43793c0ea8ac4ea0674bdd54f1ba774c71e95bfb1b03ce3353b00e9a287",
+      "bytes": 32869
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "sha256": "9ffc81e8695cbae1423e63de942a17e01fb0efde5e465165e13dd401bfe51eda",
+      "bytes": 1515
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_t6_panel.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_t6_panel.csv",
+      "sha256": "d2605d4c6b669f8719fa26be194004e581dea66e405f9120940f4fe7319a2dee",
+      "bytes": 26001
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/baseline_settings.json",
+      "sha256": "72953156c43277de4e8c0fb1f07b7657730cb64a3edbe3caec0eb81c0fc37667",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/budget_gate.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/budget_gate.py",
+      "sha256": "e11a0c36a60caf2a03ed3dfb15e61b55f296e3e7cb2abc80deacafaae706c2c7",
+      "bytes": 1549
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/build_aa_data_simulator.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/build_aa_data_simulator.py",
+      "sha256": "b3fb26028962871140124cfce1ace9784f69a4d0b6fb43f2d2a75670c2e44311",
+      "bytes": 4904
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "sha256": "e58249af76b79b7b24a0ff175fd9ff7c45cd6fbbe3986cd90fd848df283a9fc6",
+      "bytes": 3777
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "sha256": "cd5ce84489fa7a9a60a1cab678f03df62e57508447b1e0510c6c00ada834218b",
+      "bytes": 3733
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "sha256": "97fa23e73a8917400d186e8bbb2c88d06afbbd3a950d43188ab69e16f00db9ff",
+      "bytes": 3778
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "sha256": "6f0c250c6bf10b180970a3056a9238b6970d0e3b34eaad04e73d29f9d2e11a80",
+      "bytes": 3784
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "sha256": "f2ec1af76cd57172bf0767bcca4d61ce697532aae05f3f540456441eb6bdcb73",
+      "bytes": 3730
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "sha256": "66971f895cf5565cb5af180f47f835828547f64b28f4b297b8b4206f6f5bf11f",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "sha256": "63c414c777d5c186c19c4cd6caf69e79a3926f01ec18a98505199b4e79a668e9",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "sha256": "5b900a3d6fc3b95fb15e95d790f2d32a367880fe49c25a14ca0346a2826961a9",
+      "bytes": 3731
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "sha256": "4e06335a8713dae9647c822fd36c04cb4f9600cb1080e17d88149445af5ac0e0",
+      "bytes": 3737
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "sha256": "0e191e10f2d4d5e9b66e4fd86f116f349244d356682d8e71f1037009614d449e",
+      "bytes": 3742
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "sha256": "e3907a43a2acd4a685d57e91845ce13f4e3cc495c802b42cac41e7ad13bc4c3a",
+      "bytes": 3739
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "sha256": "7c2020e45a427d97781be99b61908a35e2783372d83d6194bd2655e4bbbd48c7",
+      "bytes": 3738
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "sha256": "a08ffcbec2c2a62ca6d6e9475d5e0d7fdc0a1b072908968ba2063e9205d81f37",
+      "bytes": 3743
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "sha256": "af8b309f80f4b772d26894ad63f9b2217e39f192466b607a031a67a16aa4a883",
+      "bytes": 3733
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "sha256": "d3358e7cb82ed15b6dd0fa392e319ce76a65eb5aed44504d487f9e85ea639561",
+      "bytes": 3784
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "sha256": "aa5b48c6f916a556203129b79dadd77fd4908e7e0a1e4bba8d327f62fcba0015",
+      "bytes": 8129
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "sha256": "fe960d0827b623855fec0a3f936a547e6f736ce6fd9e13a55345650fa8ea24e3",
+      "bytes": 8153
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/td3_direct_softmax.json",
+      "sha256": "d90d3b10e4511fa69880b41acb1a3c1a7461cf8b021f1bb565bccfa2b5785e0c",
+      "bytes": 8192
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/source/td3_projection.json",
+      "sha256": "4b2912f87c19e59f4874044cfc14c527d72ccc5025f6fd33bedc31fa98cda0df",
+      "bytes": 8176
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "sha256": "333c4d108d96a7c34d30a788f5a86b99fce2f13bf68f089a27a9291bebac25c0",
+      "bytes": 3744
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "sha256": "8dd3b8fe8fc87ffb6be75f86a3b8d7c1e806de0b9095d93db57af5ef3df8601a",
+      "bytes": 3735
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "sha256": "029d8afc9219ae4caf422989d2a1acb233e513b7393444f1a5d0acc5b3a950b8",
+      "bytes": 3740
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "sha256": "969f694b73e65b4a11baa0e330fad28138c1144738933752fc7974c86e352e8f",
+      "bytes": 126833
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "sha256": "30ca6e78d0ece216559a53e22d0234ad9c8bca97ec61623e5f1cd4eee3e8714c",
+      "bytes": 63245
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "sha256": "1d33e5dd7337070e12554b88b086d1928e3f6179d84790c6a6dc46be9876b43f",
+      "bytes": 17538
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/e1_baselines.py",
+      "sha256": "83c7987439712962aacef0d85b028ab551cf358306595f467394cabd59f42e5a",
+      "bytes": 13111
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/e1_methods.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/e1_methods.py",
+      "sha256": "040ffeda744af59cd9328e49863a9ca06a116ef3a0574f64ea909af1603a7899",
+      "bytes": 924
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/e1_offline.py",
+      "sha256": "e3e9f74d35734153db297b9abec963af57c26608dc07abf3ed42ae1e9d2f0090",
+      "bytes": 12718
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "sha256": "8604b2bad3bec3498c5c9a4743e7d153f46bd951485fc35f3fd07cbb66876a86",
+      "bytes": 248777
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "sha256": "ecb5f29239c1c802a9fa5c3aa795cf45983cb226b49e7b66392f0b05724a24a7",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "sha256": "cb96972100fd89201c1da2784a586a0f80e413d815afd535ec9f10812627687c",
+      "bytes": 3859
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/pinet_budget.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/pinet_budget.py",
+      "sha256": "22cf839161feeb27230cd3d572d4ee2dda73860cef50f1b72c825dcf0c135fa9",
+      "bytes": 5805
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/run_e1.py",
+      "sha256": "9d92b1c8a894b4267391ad521b18f2ca0ecb548e7f5d75d1165633b45bf9b223",
+      "bytes": 10899
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "sha256": "d771faf0d2641462f86432013227353c89daf1231a99301ff2593aec141259e5",
+      "bytes": 59222
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/source_manifest.json",
+      "sha256": "dc2a247b8e30acb9f5745c4fddb8190d39d60ad0ce9108bf31993a809732f535",
+      "bytes": 6381
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/summarize_e1.py",
+      "sha256": "efec74c915892b37cb62d04dcf17f1b59e4c642e9a2cc945c64cad62b8aa4fb5",
+      "bytes": 5420
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/upstream_references.json",
+      "sha256": "ec5bb2edf74858ebfd7639c68c8f72c59f90bd9b5279088cc540ded6b9370b44",
+      "bytes": 1003
+    },
+    {
+      "path": "experiments/pinet/SACSA-T6-AA_E1_baselines_5seeds_next/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T6-AA_E1_baselines_5seeds_next/verify_protocol.py",
+      "sha256": "25f3e1ed156a74923d58b09d20865e66d0ba607702c522727bbc629cfde8a57f",
+      "bytes": 5618
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator.py",
+      "sha256": "1714c2c1c0a2487c6b53ec9a9d64f8f39e1d5f87844345142d48352ef0692121",
+      "bytes": 29046
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_artifact.npz",
+      "sha256": "295afe4a38a6a0ff1d4f287d5fb5a4ede1bef9ad8048afae5d54ce7780c1da30",
+      "bytes": 51086
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_calibration_summary.csv",
+      "sha256": "49e1ddb32c71756e4608514f98bc71decb46235cb7aa30d633ee83b194c0f76c",
+      "bytes": 11312
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_ols_coefficients.csv",
+      "sha256": "42d33043d03d95279d769e30575966b80f43f5d6c8e1f38f29bc6f174608390f",
+      "bytes": 5573
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_residual_paths.csv",
+      "sha256": "c86662f442c14e24728be2a76eaf7e9a2729317143c138460ec0b92e6ddf3b12",
+      "bytes": 69425
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_subsidy_mechanism.csv",
+      "sha256": "2c1b47fa266cd4a0809e15a7a469f43702edcc6059f03c0c1a2724d40ad4e629",
+      "bytes": 3067
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_t12_panel.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/aa_data_based_simulator_outputs/aa_t12_panel.csv",
+      "sha256": "244db4979a794d6032edf45f6ee1ca36041c6e14b0ccb14f84ab36927b6a75a9",
+      "bytes": 52273
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/baseline_settings.json",
+      "sha256": "72953156c43277de4e8c0fb1f07b7657730cb64a3edbe3caec0eb81c0fc37667",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/budget_gate.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/budget_gate.py",
+      "sha256": "e11a0c36a60caf2a03ed3dfb15e61b55f296e3e7cb2abc80deacafaae706c2c7",
+      "bytes": 1549
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/build_aa_data_simulator.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/build_aa_data_simulator.py",
+      "sha256": "8c203e3e65b96f0930ae19e15c4f02ad3103c0f6a65b28f2169822f2490ea5a3",
+      "bytes": 4904
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "sha256": "f4b11842b0563b86b841e2d914f0ed80ef214342eef33ce1eb1bcaea32a150cf",
+      "bytes": 3476
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "sha256": "0011f9db7baa0d32529074c9c9a98c0732d7e21ee092b505e9f24fd0ae96996c",
+      "bytes": 3430
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "sha256": "b9169f8d2b3c62ba8619a9c12ea6a10f88e72841a802df7cb3d2635381b70d2d",
+      "bytes": 3477
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "sha256": "9b0b0404c947119cfdc313863747ba32a96ef29b6f2e2c44263691d6aca5a133",
+      "bytes": 3483
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "sha256": "ea33da304c88338409fb319ba9b866585fab473f85d41a0a60bbabc916e80beb",
+      "bytes": 3429
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "sha256": "d9ad42fcec42bfec93de15551e12b763d0965f7f158339af2887a1f0daf8918f",
+      "bytes": 3428
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "sha256": "1f53eae2348eadc5a5f82729b26c73116b26ffcbe7ca7ef327baadc9c55b57ab",
+      "bytes": 3430
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "sha256": "0ad47cee1412cf8dbf3f62d696822958a492d8ca990326b71e3c22dead0939f0",
+      "bytes": 3430
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "sha256": "f9ca46febaa30756841ecaaa8328ec96f7315dca8cca5eaff86cc0e17abef6f4",
+      "bytes": 3436
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "sha256": "c0e0a8c908cd9ee3987daae01f7053900727fec3c72739b2989884a17ef4f23b",
+      "bytes": 3441
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "sha256": "dd46f850ca8a373f28f710ae9b5401dc543db159a7f6b9421940e438d06c0621",
+      "bytes": 3438
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "sha256": "13236974e441ad5d87cf08ada10c8190dbd0e07fdaec5e62f91c2575aad4757b",
+      "bytes": 3437
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "sha256": "5adedbe74e59017d8a3b14f0ffaf6c804d6f9ae43065851a49ddacb68a448420",
+      "bytes": 3442
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "sha256": "77aeeadc9d605d215af9da09169b2f447fa50145a46e5ee9e4b5228250a1333e",
+      "bytes": 3432
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "sha256": "73ca88c6c770d5ca19a9f4e9d5c8bdc9e7731862fe0283228b8db8684aa1b676",
+      "bytes": 3483
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "sha256": "53b828ea5f7518e136310c20758afb462176258f25adc3891799356fd398118e",
+      "bytes": 7769
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "sha256": "9be8193c87c7122d918c67499b5b12ea1280a073b39ed6b39eb77219e19ba011",
+      "bytes": 7796
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "sha256": "0753d9545b3831aebd9d18c5e010c0b1b5f18be896bf6d366d6e7d1c9321b6d5",
+      "bytes": 3443
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "sha256": "79db1a93ca11223f80df78d7eb8e6a66d0ef205f60a5762a12a2aefd6ee236b4",
+      "bytes": 3434
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "sha256": "5275b82bb2b92e90c5652953b9de05daa727df60621e19d7949f6893f70e4aad",
+      "bytes": 3439
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/data_sim/V2_hangzhou_serial_order_dispatch_AA.csv",
+      "sha256": "969f694b73e65b4a11baa0e330fad28138c1144738933752fc7974c86e352e8f",
+      "bytes": 126833
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/data_sim/V2_taiyuan_serial_order_dispatch_AA.csv",
+      "sha256": "30ca6e78d0ece216559a53e22d0234ad9c8bca97ec61623e5f1cd4eee3e8714c",
+      "bytes": 63245
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/DGP_sim_env.py",
+      "sha256": "bdaf781dd17ec43f7131fd1765cabb60f40c0a4283eb418bc83c71ee249f36f3",
+      "bytes": 17467
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/e1_baselines.py",
+      "sha256": "83c7987439712962aacef0d85b028ab551cf358306595f467394cabd59f42e5a",
+      "bytes": 13111
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/e1_methods.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/e1_methods.py",
+      "sha256": "040ffeda744af59cd9328e49863a9ca06a116ef3a0574f64ea909af1603a7899",
+      "bytes": 924
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/e1_offline.py",
+      "sha256": "e3e9f74d35734153db297b9abec963af57c26608dc07abf3ed42ae1e9d2f0090",
+      "bytes": 12718
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/iterative_synthetic_sacsa.py",
+      "sha256": "3c2fa8aa7302ddc98414cbc0b8cb0b8f47fbd9f2dbcf63e04cde7a424d9f940d",
+      "bytes": 231752
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "sha256": "ecb5f29239c1c802a9fa5c3aa795cf45983cb226b49e7b66392f0b05724a24a7",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "sha256": "fb7885db7bb05cc35c9eb83f2abdd3e1870d20201392603b0be976d0ead225ea",
+      "bytes": 3634
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/pinet_budget.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/pinet_budget.py",
+      "sha256": "22cf839161feeb27230cd3d572d4ee2dda73860cef50f1b72c825dcf0c135fa9",
+      "bytes": 5805
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/run_e1.py",
+      "sha256": "9d92b1c8a894b4267391ad521b18f2ca0ecb548e7f5d75d1165633b45bf9b223",
+      "bytes": 10899
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/sacsa_rl_components.py",
+      "sha256": "e5f6cd9cb5b7a24e2a90802af7adeb113b45f7a6a291b2dec904c61c9731cc22",
+      "bytes": 59180
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/single_round_synthetic_sacsa.py",
+      "sha256": "8d21c55714914dc5e7233e8e09b09e2189a9616964a816e3fddaccd2e8b0d55e",
+      "bytes": 1292
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/source_manifest.json",
+      "sha256": "83440e038ce4037ea61533ff83bd78383f4c9bcfcb5160c6ae640286ed1c6669",
+      "bytes": 5607
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/summarize_e1.py",
+      "sha256": "efec74c915892b37cb62d04dcf17f1b59e4c642e9a2cc945c64cad62b8aa4fb5",
+      "bytes": 5420
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/upstream_references.json",
+      "sha256": "ec5bb2edf74858ebfd7639c68c8f72c59f90bd9b5279088cc540ded6b9370b44",
+      "bytes": 1003
+    },
+    {
+      "path": "experiments/pinet/SACSA-T12-AA_E1_baselines_5seeds_next/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SACSA-T12-AA_E1_baselines_5seeds_next/verify_protocol.py",
+      "sha256": "25f3e1ed156a74923d58b09d20865e66d0ba607702c522727bbc629cfde8a57f",
+      "bytes": 5618
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/.cache/public_city_panel/calibration_v8_59e87f571650ad804f9d.pt",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/.cache/public_city_panel/calibration_v8_59e87f571650ad804f9d.pt",
+      "sha256": "5d9126f5c2fe429d0e1f0a3018c91d12191cba88a1263a11e3a39cc661e626c8",
+      "bytes": 24606085
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/baseline_settings.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/baseline_settings.json",
+      "sha256": "72953156c43277de4e8c0fb1f07b7657730cb64a3edbe3caec0eb81c0fc37667",
+      "bytes": 755
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/baseline_settings_parent.json",
+      "sha256": "9d32f6c73c32708cd9c6a1cd4c4c4049d39469ce5d1ee9f2007ce4c618c9e815",
+      "bytes": 563
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/budget_gate.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/budget_gate.py",
+      "sha256": "e11a0c36a60caf2a03ed3dfb15e61b55f296e3e7cb2abc80deacafaae706c2c7",
+      "bytes": 1549
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/city_panel_models.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/city_panel_models.py",
+      "sha256": "b0314ac4de07f31cd3bcf7bec5d125c28388fcb407d34579cae92c5d5f7e9472",
+      "bytes": 21331
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/city_panel_training.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/city_panel_training.py",
+      "sha256": "cd21e0e1a2dc9a2deec88cb6d45ecb7076c8894b2311b7bee7367cfc1beed7ca",
+      "bytes": 102884
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/cql_ft.json",
+      "sha256": "5cf9135e997e8cdad7792f92e779cc134b4a5f8721f75cb566d5e494b7dfae67",
+      "bytes": 2430
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/dfl_pto.json",
+      "sha256": "47675dbfccfcb271b76fdec808f2e26c2a250bdc9470011b760677876e411796",
+      "bytes": 2384
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/mopo_ft.json",
+      "sha256": "2ca999ab1c747b953c432bc6b8afff8abe2316a3b25ccf8d7cc099e45a337efd",
+      "bytes": 2431
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/mopo_short_ft.json",
+      "sha256": "fece760c9b51cea6d675b08e15eaeaa063d82b7bd7894a1f20740215c292de2a",
+      "bytes": 2437
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/cql_ft.json",
+      "sha256": "879f9c4f238a7b1896c326a6d06cdec01281108759e0d9faefd51e3546f89798",
+      "bytes": 2381
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/dfl_pto.json",
+      "sha256": "b99ac5320a0b74391d515441551db3211beecc58f8920b1e366a59df55e1c26e",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/mopo_ft.json",
+      "sha256": "4cfa1f3aef223bc9e7a1f57aafd6a73bc6d5e2e35a59c91169b19002eca2eb97",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/sac_lag.json",
+      "sha256": "e5c0f229313ee9a2880c7db126c98705aedebae5114d3dc8e8bfdc9b55ded047",
+      "bytes": 2382
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/sacsa_reserve.json",
+      "sha256": "c5b457c50d4d528ff524e46306748b29913831e8bafa733dbd11779329332a90",
+      "bytes": 2388
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_direct_softmax.json",
+      "sha256": "f4cf1c77597789137e660d07988fe96364186d003c5f8bee7e82cda4eb1766df",
+      "bytes": 2393
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_hardnet_cvx.json",
+      "sha256": "e49fa1a0dc2d014323b4443ae28c25d101c1b6a8685da0d3b2736f1b6afaba3d",
+      "bytes": 2390
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/parent_e1/td3_projection.json",
+      "sha256": "11f04568bf35e6d4fa81a31d0aac3404b73251d867b3c7860063f214c8e2f756",
+      "bytes": 2389
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/sac_fixed_penalty.json",
+      "sha256": "04a7c17b06ed8f57f549e02d3acaef7430a59ce1983b804f6390077c5f34278e",
+      "bytes": 2394
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/sac_lag.json",
+      "sha256": "51857a6933d863299966a63ca12b8245f30373d24296a3e4eece267e4b836290",
+      "bytes": 2384
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/sacsa_reserve.json",
+      "sha256": "90208749cfb70bea8b0a5324aca05f10769b33dbbeb41ede6f533607d3c39176",
+      "bytes": 2437
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/source/dfl_pto.json",
+      "sha256": "055b284114e6d75d6d6d0841a0ae04f716de641255b0f6f7ced77936c14db702",
+      "bytes": 2300
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/source/sacsa_reserve.json",
+      "sha256": "58473e6067d43d60cc19f415acf6704143d72da3d0c1ef4fca9ae10d9d301b57",
+      "bytes": 2306
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/td3_direct_softmax.json",
+      "sha256": "ef5a143262861298af217f611a434a244fc75ed9b1c33e416c355c00db91b418",
+      "bytes": 2395
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/td3_pinet.json",
+      "sha256": "15e8acfb91e9f3d2842d5507b4e89f9c1d37c0c20299b7157daa7981dced96d2",
+      "bytes": 2386
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/configs/td3_projection.json",
+      "sha256": "e37d889a073401b9d0167ee42642575506560cbfd80c8f1fe3265e00bed5eac2",
+      "bytes": 2391
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/e1_baselines.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/e1_baselines.py",
+      "sha256": "2b2ef5afd9bf68259454d02d29d959746d7ac942aabce60e8191747c1c1f25ff",
+      "bytes": 20949
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/e1_entry.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/e1_entry.py",
+      "sha256": "015414b2ed670990aa87fae30b93f215d711427b9f2e2ceffb955a94d5759d8b",
+      "bytes": 2405
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/e1_methods.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/e1_methods.py",
+      "sha256": "040ffeda744af59cd9328e49863a9ca06a116ef3a0574f64ea909af1603a7899",
+      "bytes": 924
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/e1_offline.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/e1_offline.py",
+      "sha256": "f23b62f3788c3e019c68d322c3045a7fc4e9830bdfd77d3b24b979a90a68c1a2",
+      "bytes": 13328
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/Env-DGP.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/Env-DGP.py",
+      "sha256": "bfd6d23675d98b9914c979dc5f5be0b1e054bfe330e76c4e0ba086fa5fc3f202",
+      "bytes": 29032
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/learning_rate_plan.py",
+      "sha256": "ecb5f29239c1c802a9fa5c3aa795cf45983cb226b49e7b66392f0b05724a24a7",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/parent_e1_manifest.json",
+      "sha256": "87f9c468677da5906c55539d5020f91ef7ef07bd2c7693cf48766e6979b0fa1b",
+      "bytes": 3596
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/pinet_budget.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/pinet_budget.py",
+      "sha256": "22cf839161feeb27230cd3d572d4ee2dda73860cef50f1b72c825dcf0c135fa9",
+      "bytes": 5805
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/public_city_panel_dgp.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/public_city_panel_dgp.py",
+      "sha256": "54e680026dea6b2daffbace28008983c43268b4930917d32444aae38355a1f48",
+      "bytes": 54348
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/run_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/run_e1.py",
+      "sha256": "028ca18e96b5a4b80806251a61e173dd97bf2b1bba52b2221021692da6081e28",
+      "bytes": 10302
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/source_manifest.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/source_manifest.json",
+      "sha256": "294524b4da6817d252d56f32fa56e0438ff385a6a6221e0a968980e42d44b04b",
+      "bytes": 2846
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/summarize_e1.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/summarize_e1.py",
+      "sha256": "7c78a22a608b2181b359f1da4a918548caefa7596681f0b24bd926e39745c5cd",
+      "bytes": 5894
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/train_public_city_panel.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/train_public_city_panel.py",
+      "sha256": "5eaecf5ba22a73c2c744a01d68c7da1cdfe78c4bcd61dbc5c68a4c1957978051",
+      "bytes": 8390
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/upstream_references.json",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/upstream_references.json",
+      "sha256": "ec5bb2edf74858ebfd7639c68c8f72c59f90bd9b5279088cc540ded6b9370b44",
+      "bytes": 1003
+    },
+    {
+      "path": "experiments/pinet/Grid-T20_E1_baselines_5seeds_next/verify_protocol.py",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/Grid-T20_E1_baselines_5seeds_next/verify_protocol.py",
+      "sha256": "25f3e1ed156a74923d58b09d20865e66d0ba607702c522727bbc629cfde8a57f",
+      "bytes": 5618
+    },
+    {
+      "path": "results/recorded/combined_method_summary.csv",
+      "source": "SAC-SA-Rebutal_res/E1_pinet_replacement_20261001/combined_method_summary.csv",
+      "sha256": "dc990a1de94d1bb6ae238092a4ec593e3587f8ae9fced57e39e90cc229a93f1c",
+      "bytes": 3812
+    },
+    {
+      "path": "results/recorded/TABLE_ORIGINAL_E1_PLUS_PINET.csv",
+      "source": "SAC-SA-Rebutal_res/E1_pinet_replacement_20261001/TABLE_ORIGINAL_E1_PLUS_PINET.csv",
+      "sha256": "9eaad15f6270dd71f778f574a71d8855082e38da3047ac1ff23e89dbd9ea911e",
+      "bytes": 1011
+    },
+    {
+      "path": "results/recorded/TABLE_ORIGINAL_E1_PLUS_PINET.md",
+      "source": "SAC-SA-Rebutal_res/E1_pinet_replacement_20261001/TABLE_ORIGINAL_E1_PLUS_PINET.md",
+      "sha256": "810da0b073d703e75f83a3b1fa5b5ed98c07fd00a6fd9d36c21a9bcf2366be8d",
+      "bytes": 2169
+    },
+    {
+      "path": "results/recorded/operational_baselines.csv",
+      "source": "SAC-SA-Rebutal_res/E1_audit_20261001/operational_baselines_recomputed.csv",
+      "sha256": "8b1c94e10cff1673f9cd731a5ca2f63946057ba4b6f38a03417aaa15ae808387",
+      "bytes": 1266
+    },
+    {
+      "path": "requirements.txt",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/requirements_e1.txt",
+      "sha256": "6fb1d6361f9790d016b965256509c26b39d6f6b3ec0f306797812abd4528b7c2",
+      "bytes": 290
+    },
+    {
+      "path": "requirements-py310.txt",
+      "source": "SAC-SA-Rebutal_res/E1-next-simple/SAC-SA-T6_E1_baselines_5seeds_next/requirements_e1_py310.txt",
+      "sha256": "8aab784904be724f96ead1bd43fda68505df498b6278234320eec2ad17a5f8b3",
+      "bytes": 250
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "cql": {
+    "url": "https://raw.githubusercontent.com/aviralkumar2907/CQL/master/d4rl/rlkit/torch/sac/cql.py",
+    "sha256": "f1251a0d2518b96fea04a15225d9d9eb23ac3501bf8e51dd37d2e6263c2ee134",
+    "bytes": 16713
+  },
+  "mopo": {
+    "url": "https://raw.githubusercontent.com/tianheyu927/mopo/master/mopo/algorithms/mopo.py",
+    "sha256": "26195d6b62cf78b355c98d80aa1f83b273819dfc7e3a1cb128192a7257c2aecd",
+    "bytes": 29127
+  },
+  "retrieved_on": "2026-09-29",
+  "version_identification": "Exact upstream file content hashes; git HEAD lookup was unavailable. Local implementations are RL adaptations, not unmodified upstream training scripts.",
+  "pinet": {
+    "paper": "https://arxiv.org/abs/2508.10480v2",
+    "repository": "https://github.com/antonioterpin/pinet",
+    "commit": "f258b3d5e1b2f3732eea2d198627693b5c2ca22b",
+    "implementation": "PyTorch budget specialization; DR forward; dense implicit adjoint instead of BiCGSTAB",
+    "retrieved_on": "2026-10-01"
+  }
+}
